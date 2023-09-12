@@ -1,0 +1,18 @@
+{
+  "name": "montyscafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "bootstrap": "^5.3.1",
+    "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "dev": "node-sass --output-style compressed -o ./assets/css ./assets/scss/app.scss",
+    "watch": "npm run dev -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

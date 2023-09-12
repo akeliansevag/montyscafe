@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root{
+  --mc-header-height: 90px;
+
+  @media (min-width: 576px) { 
+    --mc-header-height: 115px;
+  }
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: $mc-tertiary-color;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font: normal normal 400 1rem "Excon-Regular", sans-serif;
+  z-index: -1;
+}
+
+main, div, section {
+  position: relative;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+	transition: color 0.25s ease-in-out;
+}
+
+img:not(.movable-img,) {
+  width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+select,
+input,
+button,
+textarea {
+	outline: none;
+	margin: 0;
+	padding: 0;
+	transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s;
+}
+
+button.full{
+  width:100%;
+
+  @media (min-width: 576px) { 
+    width: auto;
+  }
+}
+
+.button-primary {
+  border: 1px solid $mc-primary-color;
+
+  &:hover {
+    border: 1px solid $mc-white-color;
+  } 
+}
+
+.button-secondary {
+  border: 1px solid $mc-secondary-color;
+
+  &:hover{
+    border: 1px solid $mc-secondary-darker-color;
+  }
+}
+
+.button-tertiary {
+  border: 1px solid $mc-white-color;
+
+  &:hover{
+    border: 1px solid $mc-primary-color;
+  }
+}
