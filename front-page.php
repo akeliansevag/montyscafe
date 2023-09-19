@@ -92,8 +92,33 @@
         </div>
     </section>
 
-    <section id="section-2" class="section-2 vh-100">
-
+    <section id="section-2" class="section-2 vh-100 pb-5">
+        <div class="container">
+            <div class="reserve-section primary-bg rounded-5 w-100 px-5 py-6 d-flex align-items-center justify-content-between">
+                <div class="reserve-images d-flex">
+                    <img src="<?=get_template_directory_uri()?>/assets/images/reserve1.png" alt="">
+                    <img src="<?=get_template_directory_uri()?>/assets/images/reserve2.png" alt="">
+                </div>
+                <div class="reserve-text text-center px-5">
+                    <p class="fs-5">Get the perfect dessert for any occasion</p>
+                    <a href="#" class="d-inline-block button-secondary py-3 px-5 mx-2 my-2 my-sm-4 rounded-pill full">Reserve</a>
+                </div>
+                <div class="reserve-video position-relative">
+                    <img src="<?=get_template_directory_uri()?>/assets/images/reserve-video-image.png" alt="">
+                    <div class="position-absolute reserve-play-container">
+                        <a data-fancybox href="<?=get_template_directory_uri()?>/assets/videos/our-story.mp4" class="d-flex align-items-center hover-effect">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="30" cy="30" r="30" fill="white"/>
+                                <path d="M39.0825 31.8953C40.3224 30.9359 40.3224 29.0642 39.0825 28.1048C35.3357 25.2055 31.1517 22.9204 26.6872 21.3348L25.8717 21.0451C24.3113 20.4909 22.6632 21.5466 22.4519 23.1573C21.8617 27.6575 21.8617 32.3425 22.4519 36.8428C22.6632 38.4535 24.3113 39.5092 25.8716 38.955L26.6872 38.6653C31.1517 37.0798 35.3357 34.7945 39.0825 31.8953Z" fill="black"/>
+                            </svg>
+                            <span class="px-2 text-white">Watch our story</span>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </section>
 
     <section id="section-3" class="section-3 vh-100 primary-bg">
@@ -101,6 +126,5 @@
     </section>
 </main>
 
-<?php get_footer(); ?>
-
 <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/homepage.js"></script>
+<?php get_footer(); ?>

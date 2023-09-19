@@ -1,5 +1,7 @@
 (function() {
-
+    Fancybox.bind("[data-fancybox]", {
+    // Your custom options
+    }); 
     // Animations
     document.addEventListener("DOMContentLoaded", function() {
         var animationElements = [].slice.call(document.querySelectorAll(".animation"));

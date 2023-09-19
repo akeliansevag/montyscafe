@@ -93,5 +93,18 @@ main {
 			}
 		}
     }
+	&-2 {
+		padding-top: 18vh;
+		
+		.reserve-images {
+			img:nth-child(2){
+				margin-left:-50px;
+			}
+		}
+		.reserve-play-container{
+			bottom:-8px;
+			left:-16px;
+		}
+	}
   }
 }
