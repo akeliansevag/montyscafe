@@ -1,4 +1,40 @@
 (function() {
+
+    const swiper = new Swiper('.selection-slider', {
+        loop: true,     
+        navigation: {
+            nextEl: ".next-btn",
+            prevEl: ".prev-btn",
+        },
+        slidesPerView: 3,
+        centeredSlides: true,
+        effect: "creative",
+        creativeEffect: {
+            limitProgress: 2,
+            prev: {
+                translate: ["-100%", 100 , 0],
+                scale: 0.5,
+                rotate: [0,0,90]
+            },
+            next: {
+                translate: ["100%", -100, 0],
+                scale: 0.5,
+                rotate: [0,0,90]
+            }
+        }
+    });
+    swiper.on('slideChangeTransitionStart', (swiper)=>{
+        const all = document.querySelectorAll('.dish-active');
+        all.forEach((elem)=>{
+            elem.classList.remove('dish-active');
+        });
+    });
+
+    swiper.on("slideChangeTransitionEnd",(swiper)=>{
+        const current = document.querySelector('[data-swiper-slide-index="'+swiper.realIndex+'"');
+    });
+
+    
     Fancybox.bind("[data-fancybox]", {
     // Your custom options
     }); 

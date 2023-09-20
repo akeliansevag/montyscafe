@@ -108,4 +108,20 @@ main {
 		height: auto;
 	}
   }
+
+  .selection-slider{
+	.swiper-slide { 
+		img{
+			width:100%;
+			vertical-align: bottom;
+		}
+		.swiper-info-container{
+			opacity:0;
+			transition: opacity 0.2s ease-in;
+		}
+		.dish-active{
+			opacity:1;
+		}
+	}
+  }
 }

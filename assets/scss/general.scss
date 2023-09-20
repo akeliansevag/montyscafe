@@ -59,12 +59,19 @@ input,
 button,
 textarea
 .button-primary,
-.button-secondary
+.button-secondary,
+.prev-btn,
+.next-btn
 {
 	outline: none;
 	margin: 0;
 	padding: 0;
 	transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
 }
 
 button.full{
@@ -103,5 +110,20 @@ button.full{
   transition: opacity 0.25s linear;
   &:hover{
     opacity: 0.9;
+  }
+}
+
+.prev-btn, .next-btn{
+  background-color: $mc-secondary-color;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 6px;
+
+  &:hover{
+    background-color: $mc-secondary-darker-color;
   }
 }
