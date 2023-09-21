@@ -35,8 +35,6 @@
             document.querySelector('.dish-price span').innerHTML = dishPrice;
             elem.classList.add('dish-active');
         },200);
-       
-        
     });
 
 
