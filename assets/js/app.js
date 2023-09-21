@@ -2,6 +2,7 @@
 
     const swiper = new Swiper('.selection-slider', {
         loop: true,     
+        speed: 800,
         navigation: {
             nextEl: ".next-btn",
             prevEl: ".prev-btn",
@@ -12,27 +13,32 @@
         creativeEffect: {
             limitProgress: 2,
             prev: {
-                translate: ["-100%", 100 , 0],
+                translate: ["-110%", 100 , 0],
                 scale: 0.5,
-                rotate: [0,0,90]
+                rotate: [0,0,90],
             },
             next: {
-                translate: ["100%", -100, 0],
+                translate: ["110%", -100, 0],
                 scale: 0.5,
-                rotate: [0,0,90]
+                rotate: [0,0,90],
             }
         }
     });
-    swiper.on('slideChangeTransitionStart', (swiper)=>{
-        const all = document.querySelectorAll('.dish-active');
-        all.forEach((elem)=>{
-            elem.classList.remove('dish-active');
-        });
+    swiper.on('slideChange', (swiper)=>{
+        const elem = document.querySelector('.dish-active');
+        elem.classList.remove("dish-active");
+        const current = document.querySelector('[data-swiper-slide-index="'+swiper.realIndex+'"');
+        const dishName = current.getAttribute("data-dish-name");
+        const dishPrice = current.getAttribute("data-dish-price");
+        setTimeout(() => {
+            document.querySelector('.dish-name').innerHTML = dishName;
+            document.querySelector('.dish-price span').innerHTML = dishPrice;
+            elem.classList.add('dish-active');
+        },200);
+       
+        
     });
 
-    swiper.on("slideChangeTransitionEnd",(swiper)=>{
-        const current = document.querySelector('[data-swiper-slide-index="'+swiper.realIndex+'"');
-    });
 
     
     Fancybox.bind("[data-fancybox]", {

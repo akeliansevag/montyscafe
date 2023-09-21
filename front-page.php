@@ -134,8 +134,8 @@
     </section>
 
     <section id="section-3" class="full-height home-section-3 py-3">
-        <div class="container">
-            <div class="swiper selection-slider py-5">
+        <div class="container-fluid">
+            <div class="swiper selection-slider py-6">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" data-dish-name="THE BEEF" data-dish-price="13"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png"></div>
                     <div class="swiper-slide" data-dish-name="CORDON" data-dish-price="12"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png"></div>
@@ -151,9 +151,9 @@
                     <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png"></div>
                 </div>
                 <div class="">
-                    <div class="swiper-info-container mt-4 mb-1 text-center">
+                    <div class="swiper-info-container mt-4 mb-1 text-center dish-active">
                         <h3 class="dish-name white-color fs-4">THE BEEF CORDON CRUNCH</h3>
-                        <h4 class="dish-price primary-color fs-6 fw-normal">$11.00</h4>
+                        <h4 class="dish-price primary-color fs-6 fw-normal">$<span>11.00</span></h4>
                     </div>
                     <div class="text-center d-flex justify-content-center my-3">
                         <div class="prev-btn"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Left.svg" alt=""></div>
