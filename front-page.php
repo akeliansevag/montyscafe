@@ -5,7 +5,7 @@
     <section id="section-1" class="home-section-1">
         <div class="d-flex justify-content-center align-items-center h-100 text-center">
             <div class="container">
-                <h1 class="fs-1 primary-color animation fadeInUpDown opacity-0">Where stories are told through fod</h1>
+                <h1 class="fs-1 primary-color animation fadeInUpDown opacity-0">Where stories are told through fodd</h1>
 
                 <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center mt-5">
                     <button class="button-secondary py-3 px-5 mx-2 my-2 my-sm-4 rounded-pill full">View all Menu</button>
