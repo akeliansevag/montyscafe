@@ -3,6 +3,8 @@
 <main id="homepage">
 
     <section id="section-1" class="home-section-1">
+        <?php var_dump(get_field("background_image")); ?>
+        <a href="<?= home_url() ?>/about-us">About us</a>
         <div class="d-flex justify-content-center align-items-center h-100 text-center">
             <div class="container">
                 <h1 class="fs-1 primary-color animation fadeInUpDown opacity-0">Where stories are told through food</h1>
