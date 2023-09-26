@@ -167,6 +167,19 @@
         </div>
 
     </section>
+
+    <section id="section-4" class="home-section-4 py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="<?= get_template_directory_uri() ?>/assets/images/locate-us.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/homepage.js"></script>
