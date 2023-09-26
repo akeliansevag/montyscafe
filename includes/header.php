@@ -32,7 +32,7 @@
         <div class="mobile d-block d-md-none">
             <div class="d-flex justify-content-between">
                 <a href="<?=home_url()?>">
-                    <img src="<?= get_template_directory_uri() ?>/assets/images/logo-short.svg" alt="Monty's Cafe logo" width="201" height="68">
+                    <img src="<?= get_template_directory_uri() ?>/assets/images/logo-short.svg" alt="Monty's Cafe logo" width="80" height="68">
                 </a>
                 <div class="mobile-nav--list">
                     <a href="tel:+96103000000">
