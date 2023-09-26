@@ -168,14 +168,54 @@
 
     </section>
 
-    <section id="section-4" class="home-section-4 py-3">
+    <section id="section-4" class="full-height home-section-4 py-3 d-flex align-items-center">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="<?= get_template_directory_uri() ?>/assets/images/locate-us.jpg" alt="">
+                    <img src=" <?= get_template_directory_uri() ?>/assets/images/locate-us.jpg" alt="">
+                    <div class="primary-color mt-3 fs-5">
+                        <p>Hamra, Lebanon, <br>Gefinor Buildings, Bloc A, GF</p>
+                    </div>
                 </div>
                 <div class="col-md-6">
+                    <div class="pt-10">
+                        <h3 class="fs-2 primary-color">Locate us</h3>
+                        <div class="text-white mt-4 mb-4">
+                            <p>Choose from our famous cheesecake, chocolate chip cookie, and our delicious, sugar-free, vegan chocolate custard dessert. Each contains ingredients that are pure, unprocessed, organic, and gluten-free.</p>
+                        </div>
 
+                        <a data-fancybox href="https://www.google.com/maps/place/Starbucks/@33.902087,35.4773856,14z/data=!4m10!1m2!2m1!1sstarbucks!3m6!1s0x151f17390dc9974f:0xa77fe6b6482b3afa!8m2!3d33.9002981!4d35.4999232!15sCglzdGFyYnVja3MiA4gBAVoLIglzdGFyYnVja3OSAQtjb2ZmZWVfc2hvcOABAA!16s%2Fg%2F11ql_49slm?entry=ttu" class="d-inline-block button-secondary py-3 px-5 mx-2 my-2 my-sm-4 rounded-pill full">Get directions</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-5" class="full-height home-section-5 py-3 d-flex align-items-center">
+        <div class="container">
+            <div class="review-item">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="reviewer">
+
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <p>Amazing experience and exquisite food that transports you through its unique flavors and combinations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-item">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="reviewer">
+
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <p>Amazing experience and exquisite food that transports you through its unique flavors and combinations.</p>
+                    </div>
                 </div>
             </div>
         </div>
