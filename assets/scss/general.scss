@@ -4,21 +4,23 @@
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --mc-header-height: 90px;
 
-  @media (min-width: 576px) { 
+  @media (min-width: 576px) {
     --mc-header-height: 115px;
   }
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   background-color: $mc-tertiary-color;
 }
-img{
+img {
   max-width: 100%;
+  height: auto; //to check later
 }
 html {
   scroll-behavior: smooth;
@@ -30,7 +32,9 @@ body {
   z-index: -1;
 }
 
-main, div, section {
+main,
+div,
+section {
   position: relative;
 }
 
@@ -42,7 +46,7 @@ ul {
 
 a {
   text-decoration: none;
-	transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
 }
 
 /*img:not(.movable-img,) {
@@ -50,23 +54,28 @@ a {
   height: auto;
 }*/
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
 select,
 input,
 button,
-textarea
-.button-primary,
+textarea .button-primary,
 .button-secondary,
 .prev-btn,
-.next-btn
-{
-	outline: none;
-	margin: 0;
-	padding: 0;
-	transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s;
+.next-btn {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out,
+    border 0.25s;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -74,10 +83,10 @@ textarea
   -khtml-user-select: none;
 }
 
-button.full{
-  width:100%;
+button.full {
+  width: 100%;
 
-  @media (min-width: 576px) { 
+  @media (min-width: 576px) {
     width: auto;
   }
 }
@@ -87,13 +96,13 @@ button.full{
 
   &:hover {
     border: 1px solid $mc-white-color;
-  } 
+  }
 }
 
 .button-secondary {
   border: 1px solid $mc-secondary-color;
 
-  &:hover{
+  &:hover {
     border: 1px solid $mc-secondary-darker-color;
   }
 }
@@ -101,19 +110,20 @@ button.full{
 .button-tertiary {
   border: 1px solid $mc-white-color;
 
-  &:hover{
+  &:hover {
     border: 1px solid $mc-primary-color;
   }
 }
 
-.hover-effect{
+.hover-effect {
   transition: opacity 0.25s linear;
-  &:hover{
+  &:hover {
     opacity: 0.9;
   }
 }
 
-.prev-btn, .next-btn{
+.prev-btn,
+.next-btn {
   background-color: $mc-secondary-color;
   border-radius: 50%;
   width: 48px;
@@ -121,9 +131,9 @@ button.full{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin:0 6px;
+  margin: 0 6px;
 
-  &:hover{
+  &:hover {
     background-color: $mc-secondary-darker-color;
   }
 }

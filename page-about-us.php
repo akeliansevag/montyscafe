@@ -1,3 +1,9 @@
 <?php get_header(); ?>
-<h1>ABOUT US</h1>
+
+<main id="about-us" class="about-us">
+    
+    
+
+</main>
+
 <?php get_footer(); ?>
