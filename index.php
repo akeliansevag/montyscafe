@@ -1,3 +1,3 @@
 <?php get_header(); ?>
-hello
+<h1>INDEX.PHP</h1>
 <?php get_footer(); ?>

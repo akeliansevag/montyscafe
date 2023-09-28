@@ -205,4 +205,15 @@ main {
       object-fit: cover;
     }
   }
+
+  &.menu-page {
+    .menu-item-categories{
+      a{
+        &.active, &:hover{
+          background-color: $mc-secondary-color;
+        }
+      }
+      
+    }
+  }
 }

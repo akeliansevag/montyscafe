@@ -40,6 +40,12 @@ if (function_exists('add_theme_support')) {
 
     // Add Thumbnail Theme Support
     add_theme_support('post-thumbnails');
+    add_image_size('fullhd-resize', 1920);
+    add_image_size('xxl-resize', 1400);
+    add_image_size('xl-resize', 1200);
+    add_image_size('lg-resize', 992);
+    add_image_size('md-resize', 768);
+    add_image_size('sm-resize', 576);
     add_image_size('large', 700, '', true); // Large Thumbnail
     add_image_size('medium', 250, '', true); // Medium Thumbnail
     add_image_size('small', 120, '', true); // Small Thumbnail
