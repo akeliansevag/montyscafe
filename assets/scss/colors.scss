@@ -1,73 +1,77 @@
 header a {
-    color: $mc-primary-color;
+  color: $mc-primary-color;
 
-    &:hover{
-        color: $mc-white-color;
-    }
+  &:hover {
+    color: $mc-white-color;
+  }
 }
 
-.white-color{
-    color: white;
+.white-color {
+  color: white;
 }
 
 .primary {
-    &-color{
-        color: $mc-primary-color;
-    }
-    &-bg{
-        background-color: $mc-primary-color;
-    }
+  &-color {
+    color: $mc-primary-color;
+  }
+  &-bg {
+    background-color: $mc-primary-color;
+  }
 }
 
 .secondary {
-    &-color{
-        color: $mc-secondary-color;
-    }
-    &-bg{
-        background-color: $mc-secondary-color;
-    }
+  &-color {
+    color: $mc-secondary-color;
+  }
+  &-bg {
+    background-color: $mc-secondary-color;
+  }
 }
 
 .tertiary {
-    &-color{
-        color: $mc-tertiary-color;
-    }
-    &-bg{
-        background-color: $mc-tertiary-color;
-    }
+  &-color {
+    color: $mc-tertiary-color;
+  }
+  &-bg {
+    background-color: $mc-tertiary-color;
+  }
 }
 
-.button{
-    &-primary {
-        color: $mc-tertiary-color;
-        background-color: $mc-primary-color;
-        border: 1px solid $mc-primary-color;
-    
-        &:hover {
-        background-color: $mc-white-color;
-        border: 1px solid $mc-white-color;
-        } 
-    }
-    
-    &-secondary {
-        color: $mc-white-color;
-        background-color: $mc-secondary-color;
-        border: 1px solid $mc-secondary-color;
+.button {
+  &-primary {
+    color: $mc-tertiary-color;
+    background-color: $mc-primary-color;
+    border: 1px solid $mc-primary-color;
 
-        &:hover{
-            background-color: $mc-secondary-darker-color;
-            border: 1px solid $mc-secondary-darker-color;
-        }
+    &:hover {
+      background-color: $mc-white-color;
+      border: 1px solid $mc-white-color;
     }
+  }
 
-    &-tertiary {
-        color: $mc-white-color;
-        background-color: $mc-tertiary-color;
-        border: 1px solid $mc-white-color;
+  &-secondary {
+    color: $mc-white-color;
+    background-color: $mc-secondary-color;
+    border: 1px solid $mc-secondary-color;
 
-        &:hover{
-            color: $mc-primary-color;
-            border: 1px solid $mc-primary-color;
-        }
+    &:hover {
+      background-color: $mc-secondary-darker-color;
+      border: 1px solid $mc-secondary-darker-color;
     }
+  }
+
+  &-tertiary {
+    color: $mc-white-color;
+    background-color: $mc-tertiary-color;
+    border: 1px solid $mc-white-color;
+
+    &:hover {
+      color: $mc-primary-color;
+      border: 1px solid $mc-primary-color;
+    }
+  }
+}
+
+label {
+  color: #aeb5b5;
 }

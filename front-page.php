@@ -19,15 +19,15 @@
             <img class="movable-img position-absolute p-2" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta" width="96" height="115">
             <img class="movable-img position-absolute p-2" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza" width="99" height="103">
             <img class="movable-img position-absolute p-2" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger" width="101" height="80">
-            <div class="movable-img position-absolute rounded-circle d-none d-sm-flex flex-column flex-md-row justify-content-center align-items-center">
+            <div class="movable-img position-absolute rounded-circle d-none d-sm-flex flex-column flex-lg-row justify-content-center align-items-center">
                 <img class="w-auto p-2" src="<?= get_template_directory_uri() ?>/assets/images/chef.png" alt="Chef" width="88" height="88">
-                <div class="d-none d-md-flex flex-column">
+                <div class="d-none d-lg-flex flex-column">
                     <h3 class="fs-8 white-color">Chadi</h3>
                     <p class="primary-color">Executive Chef</p>
                 </div>
             </div>
 
-            <svg width="811" height="679" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="arches" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_178_366" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="811" height="679">
                     <rect width="811" height="679" fill="#344647" fill-opacity="0.3" />
                 </mask>
@@ -69,9 +69,9 @@
                     <img class="movable-img position-absolute p-2" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta" width="96" height="115">
                     <img class="movable-img position-absolute p-2" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza" width="99" height="103">
                     <img class="movable-img position-absolute p-2" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger" width="101" height="80">
-                    <div class="movable-img position-absolute rounded-circle d-none d-sm-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <div class="movable-img position-absolute rounded-circle d-none d-sm-flex flex-column flex-lg-row justify-content-center align-items-center">
                         <img class="w-auto p-2" src="<?= get_template_directory_uri() ?>/assets/images/chef.png" alt="Chef" width="88" height="88">
-                        <div class="d-none d-md-flex flex-column">
+                        <div class="d-none d-lg-flex flex-column">
                             <h3 class="fs-8 white-color">Chadi</h3>
                             <p class="primary-color">Executive Chef</p>
                         </div>
@@ -171,13 +171,13 @@
     <section id="section-4" class="full-height home-section-4 py-3 d-flex align-items-center">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <img src=" <?= get_template_directory_uri() ?>/assets/images/locate-us.jpg" alt="">
                     <div class="primary-color mt-3 fs-5">
                         <p>Hamra, Lebanon, <br>Gefinor Buildings, Bloc A, GF</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="pt-10">
                         <h3 class="fs-2 primary-color">Locate us</h3>
                         <div class="text-white mt-4 mb-4">
@@ -196,24 +196,24 @@
         <div class="container">
             <div class="review-item">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-lg-2">
                         <div class="reviewer">
 
                         </div>
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-lg-10">
                         <p>Amazing experience and exquisite food that transports you through its unique flavors and combinations.</p>
                     </div>
                 </div>
             </div>
             <div class="review-item">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-lg-2">
                         <div class="reviewer">
 
                         </div>
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-lg-10">
                         <p>Amazing experience and exquisite food that transports you through its unique flavors and combinations.</p>
                     </div>
                 </div>
