@@ -37,6 +37,31 @@
     swiperNext.slideNext();
   });
 
+  //   const swiper = new Swiper(".selection-slider", {
+  //     loop: true,
+  //     speed: 800,
+  //     navigation: {
+  //       nextEl: ".next-btn",
+  //       prevEl: ".prev-btn",
+  //     },
+  //     slidesPerView: 3,
+  //     centeredSlides: true,
+  //     effect: "creative",
+  //     creativeEffect: {
+  //       limitProgress: 2,
+  //       prev: {
+  //         translate: ["-110%", 100, 0],
+  //         scale: 0.5,
+  //         rotate: [0, 0, 90],
+  //       },
+  //       next: {
+  //         translate: ["110%", -100, 0],
+  //         scale: 0.5,
+  //         rotate: [0, 0, 90],
+  //       },
+  //     },
+  //   });
+
   //   swiper.on("slideChange", (swiper) => {
   //     const elem = document.querySelector(".dish-active");
   //     elem.classList.remove("dish-active");
