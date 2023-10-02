@@ -3,9 +3,7 @@
     loop: true,
     direction: "vertical",
     allowTouchMove: false,
-    autoHeight: true,
     slidesPerView: 1,
-    spaceBetween: 100,
     speed: 1000,
   });
 
@@ -13,7 +11,6 @@
     loop: true,
     allowTouchMove: false,
     slidesPerView: 1,
-    spaceBetween: 100,
     speed: 1000,
   });
 
@@ -21,9 +18,7 @@
     loop: true,
     direction: "vertical",
     allowTouchMove: false,
-    autoHeight: true,
     slidesPerView: 1,
-    spaceBetween: 100,
     speed: 1000,
   });
 
@@ -65,27 +60,6 @@
   //         rotate: [0, 0, 90],
   //       },
   //     },
-  //   });
-
-  //   let archRight = document.getElementById("right-arch");
-  //   let element = document.querySelector(".swiper-slide-next");
-
-  //   function getElementTop(element) {
-  //     const rect = element.getBoundingClientRect();
-  //     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  //     return rect.top + scrollTop;
-  //   }
-
-  //   function setArchPosition() {
-  //     const topPosition = getElementTop(element);
-  //     const elementHeight = element.getBoundingClientRect().height;
-  //     const top = topPosition - elementHeight / 2;
-  //     archRight.style.top = top + "px";
-  //   }
-  //   setArchPosition();
-
-  //   window.addEventListener("resize", function () {
-  //     setArchPosition();
   //   });
 
   //   swiper.on("slideChange", (swiper) => {
