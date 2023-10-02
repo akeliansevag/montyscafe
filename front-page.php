@@ -137,9 +137,9 @@
     
     <section id="section-3" class="home-section-3 py-3 overflow-x-hidden">
         <div class="container">
-            <div class="row vh-75 justify-content-between py-5">
+            <div class="row vh-60 justify-content-between py-5">
                 <div class="col-3 d-flex align-self-end">
-                    <div style="height:25vh;" class="d-flex align-items-center">
+                    <div style="height:30vh;" class="d-flex align-items-center">
                         <svg style="position:absolute; top:0; right:0; height:100%; transform:rotate(180deg)" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
                             <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)"/>
@@ -210,7 +210,7 @@
                     </div>
                 </div>
                 <div class="col-3">
-                    <div style="height:25vh;" class="d-flex align-items-center">
+                    <div style="height:30vh;" class="d-flex align-items-center">
                         <svg style="position:absolute; top:0; left:0; height:100%" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
                             <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)"/>
