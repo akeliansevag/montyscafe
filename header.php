@@ -37,7 +37,7 @@
 
 	<meta name="theme-color" content="#344647" />
 
-	<link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/css/app.css?v=8">
+	<link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/css/app.css?v=10">
 	<?php wp_head(); ?>
 </head>
 

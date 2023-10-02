@@ -31,15 +31,15 @@
   const nextBtn = document.querySelector(".next-btn");
 
   nextBtn.addEventListener("click", function () {
-    swiperPrev.slidePrev();
-    swiperMain.slideNext();
-    swiperNext.slideNext();
-  });
-
-  prevBtn.addEventListener("click", function () {
     swiperPrev.slideNext();
     swiperMain.slidePrev();
     swiperNext.slidePrev();
+  });
+
+  prevBtn.addEventListener("click", function () {
+    swiperPrev.slidePrev();
+    swiperMain.slideNext();
+    swiperNext.slideNext();
   });
 
   //   const swiper = new Swiper(".selection-slider", {

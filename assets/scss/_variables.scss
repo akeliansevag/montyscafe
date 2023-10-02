@@ -7,6 +7,8 @@ $mc-white-color: #ffffff;
 $headings-margin-bottom: 0;
 $headings-line-height: normal;
 
+$enable-negative-margins: true;
+
 $font-sizes: (
   1: 5.875rem,
   // 94px
@@ -36,7 +38,21 @@ $spacers: (
   4: $spacer * 1.5,
   5: $spacer * 3,
   6: $spacer * 5,
+  9: $spacer * 9,
   10: $spacer * 10,
+  16: $spacer * 16
 );
 
+
 $border-radius-xxl: 1.875rem;
+
+$utilities: (
+    "viewport-height": (
+    property: height,
+    class: vh,
+    values: (
+      75: 75vh,
+      100: 100vh
+    )
+  ),
+);

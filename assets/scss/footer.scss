@@ -1,0 +1,36 @@
+footer{
+    .social-icons{
+        a{
+            width: 56px;
+            height: 56px;
+            transition: background-color 0.2s ease-in;
+            &:hover{
+                background-color: $mc-white-color;
+            }
+        }
+    }
+    .pill{
+        img{
+           &.burger{
+            left: 5%;
+            top: 17%;
+           } 
+           &.pizza{
+            top: 3%;
+            left: 48%;
+           }
+           &.hotdog{
+            right: 12%;
+            top: 12%;
+           }
+           &.juice{
+            top: 77%;
+            left: 11%;
+           }
+           &.pasta{
+            top: 76%;
+            right: -5%;
+           }
+        }
+    }
+}
