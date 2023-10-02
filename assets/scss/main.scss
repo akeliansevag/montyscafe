@@ -216,4 +216,12 @@ main {
       }
     }
   }
+
+  &.about-us{
+    .svgs{
+      img{
+        max-width: 60px;
+      }
+    }
+  }
 }

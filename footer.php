@@ -6,7 +6,7 @@
             <img class="position-absolute hotdog" src="<?= get_template_directory_uri() ?>/assets/images/hotdog.svg" alt="Hotdog">
             <img class="position-absolute pasta" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta">
             <img class="position-absolute juice" src="<?= get_template_directory_uri() ?>/assets/images/juice.svg" alt="juice">
-            <svg class="arches h-100" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="w-100 arches h-100" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_178_366" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="811" height="679">
                     <rect width="811" height="679" fill="#344647" fill-opacity="0.3" />
                 </mask>
@@ -97,7 +97,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/app.js?v=3"></script>
+<script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/app.js?v=4"></script>
 
 </body>
 
