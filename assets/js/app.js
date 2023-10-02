@@ -3,9 +3,7 @@
     loop: true,
     direction: "vertical",
     allowTouchMove: false,
-    autoHeight: true,
     slidesPerView: 1,
-    spaceBetween: 100,
     speed: 1000,
   });
 
@@ -13,7 +11,6 @@
     loop: true,
     allowTouchMove: false,
     slidesPerView: 1,
-    spaceBetween: 100,
     speed: 1000,
   });
 
@@ -21,9 +18,7 @@
     loop: true,
     direction: "vertical",
     allowTouchMove: false,
-    autoHeight: true,
     slidesPerView: 1,
-    spaceBetween: 100,
     speed: 1000,
   });
 
@@ -31,62 +26,16 @@
   const nextBtn = document.querySelector(".next-btn");
 
   nextBtn.addEventListener("click", function () {
-    swiperPrev.slidePrev();
-    swiperMain.slideNext();
-    swiperNext.slideNext();
-  });
-
-  prevBtn.addEventListener("click", function () {
     swiperPrev.slideNext();
     swiperMain.slidePrev();
     swiperNext.slidePrev();
   });
 
-  //   const swiper = new Swiper(".selection-slider", {
-  //     loop: true,
-  //     speed: 800,
-  //     navigation: {
-  //       nextEl: ".next-btn",
-  //       prevEl: ".prev-btn",
-  //     },
-  //     slidesPerView: 3,
-  //     centeredSlides: true,
-  //     effect: "creative",
-  //     creativeEffect: {
-  //       limitProgress: 2,
-  //       prev: {
-  //         translate: ["-110%", 100, 0],
-  //         scale: 0.5,
-  //         rotate: [0, 0, 90],
-  //       },
-  //       next: {
-  //         translate: ["110%", -100, 0],
-  //         scale: 0.5,
-  //         rotate: [0, 0, 90],
-  //       },
-  //     },
-  //   });
-
-  //   let archRight = document.getElementById("right-arch");
-  //   let element = document.querySelector(".swiper-slide-next");
-
-  //   function getElementTop(element) {
-  //     const rect = element.getBoundingClientRect();
-  //     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  //     return rect.top + scrollTop;
-  //   }
-
-  //   function setArchPosition() {
-  //     const topPosition = getElementTop(element);
-  //     const elementHeight = element.getBoundingClientRect().height;
-  //     const top = topPosition - elementHeight / 2;
-  //     archRight.style.top = top + "px";
-  //   }
-  //   setArchPosition();
-
-  //   window.addEventListener("resize", function () {
-  //     setArchPosition();
-  //   });
+  prevBtn.addEventListener("click", function () {
+    swiperPrev.slidePrev();
+    swiperMain.slideNext();
+    swiperNext.slideNext();
+  });
 
   //   swiper.on("slideChange", (swiper) => {
   //     const elem = document.querySelector(".dish-active");

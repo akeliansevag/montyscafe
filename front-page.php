@@ -136,89 +136,115 @@
     </section>
     
     <section id="section-3" class="home-section-3 py-3 overflow-x-hidden">
-                
-                <!-- <div class="position-absolute bottom-0 start-0" style="transform:rotate(180deg)">
-                    <img src="<?= get_template_directory_uri() ?>/assets/images/arch-x.svg" alt="">
-                </div> -->
         <div class="container">
-           
-            <!-- <div class="swiper overflow-visible selection-slider">
-                <div class="swiper-wrapper my-6">
-                    <div class="swiper-slide" data-dish-name="THE BEEF" data-dish-price="13"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png"></div>
-                    <div class="swiper-slide" data-dish-name="CORDON" data-dish-price="12"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png"></div>
-                    <div class="swiper-slide" data-dish-name="CRUNCH" data-dish-price="16"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png"></div>
-                    <div class="swiper-slide" data-dish-name="LOREM IPSUM" data-dish-price="11"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png"></div>
-                    <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png"></div>
-                    <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png"></div>
-                    <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png"></div>
-                    <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png"></div>
-                    <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png"></div>
-                    <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png"></div>
-                    <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png"></div>
-                    <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png"></div>
-                </div>
-                <div class="">
-                    <div class="swiper-info-container mt-4 mb-1 text-center dish-active">
-                        <h3 class="dish-name white-color fs-4">THE BEEF CORDON CRUNCH</h3>
-                        <h4 class="dish-price primary-color fs-6 fw-normal">$<span>11.00</span></h4>
-                    </div>
-                    <div class="text-center d-flex justify-content-center my-3">
-                        <div class="prev-btn"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Left.svg" alt=""></div>
-                        <div class="next-btn"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Right.svg" alt=""></div>
-                    </div>
-                </div>
-            </div> -->
-
-            <div class="row justify-content-between">
+            <div class="row vh-75 justify-content-between py-5">
                 <div class="col-3 d-flex align-self-end">
-                    <div class="swiper swiper-prev swiper-v me-auto" style="height:304px;">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                    <div style="height:25vh;" class="d-flex align-items-center">
+                        <svg style="position:absolute; top:0; right:0; height:100%; transform:rotate(180deg)" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
+                            <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)"/>
+                            </mask>
+                            <g mask="url(#mask0_464_12384)">
+                            <rect y="3.05176e-05" width="363" height="334" fill="url(#paint1_linear_464_12384)"/>
+                            </g>
+                            <defs>
+                            <linearGradient id="paint0_linear_464_12384" x1="167" y1="0" x2="167" y2="380.292" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4"/>
+                            <stop offset="1" stop-color="#344647"/>
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_464_12384" x1="-1.35228e-06" y1="167" x2="363" y2="167" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4"/>
+                            <stop offset="1" stop-color="#344647"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="swiper swiper-prev swiper-v me-auto overflow-x-hidden pe-4 px-lg-5" style="height:100%;border-top-right-radius: 1000px; border-bottom-right-radius: 1000px;">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="swiper swiper-main text-center">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                    <div style="width:100%" class="d-flex align-items-center">
+                        <svg style="position:absolute; top:0px; left:50%; width:80%; transform:translateX(-50%)" viewBox="0 0 571 614" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_486_12389)">
+                            <rect x="0.5" y="0.5" width="570" height="844" rx="285" stroke="url(#paint0_linear_486_12389)"/>
+                            <rect x="60.5" y="60.5" width="450" height="784" rx="225" stroke="url(#paint1_linear_486_12389)"/>
+                            </g>
+                            <defs>
+                            <linearGradient id="paint0_linear_486_12389" x1="285.5" y1="0" x2="285.5" y2="650.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4"/>
+                            <stop offset="1" stop-color="#344647"/>
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_486_12389" x1="285.5" y1="60" x2="285.5" y2="569.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4"/>
+                            <stop offset="1" stop-color="#344647"/>
+                            </linearGradient>
+                            <clipPath id="clip0_486_12389">
+                            <rect width="571" height="614" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                        <div class="swiper swiper-main text-center overflow-x-hidden">
+                            <div class="swiper-wrapper align-items-center">
+                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
-                    <div id="right-arch" class="position-absolute" style="top:0;right:0">
-                        <img src="<?= get_template_directory_uri() ?>/assets/images/arch-x.svg" alt="">
-                    </div>
-                    <div style="height:304px; overflow-x:hidden">
-                        <div class="swiper swiper-next swiper-v ms-auto overflow-x-hidden" style="height:304px">
+                    <div style="height:25vh;" class="d-flex align-items-center">
+                        <svg style="position:absolute; top:0; left:0; height:100%" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
+                            <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)"/>
+                            </mask>
+                            <g mask="url(#mask0_464_12384)">
+                            <rect y="3.05176e-05" width="363" height="334" fill="url(#paint1_linear_464_12384)"/>
+                            </g>
+                            <defs>
+                            <linearGradient id="paint0_linear_464_12384" x1="167" y1="0" x2="167" y2="380.292" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4"/>
+                            <stop offset="1" stop-color="#344647"/>
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_464_12384" x1="-1.35228e-06" y1="167" x2="363" y2="167" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4"/>
+                            <stop offset="1" stop-color="#344647"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+
+                        <div class="swiper swiper-next swiper-v ms-auto overflow-x-hidden ps-4 px-lg-5" style="width:100%;height:100%;border-top-left-radius: 1000px; border-bottom-left-radius: 1000px;">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
 
