@@ -2,22 +2,22 @@
     <div class="container">
         <div class="desktop d-none d-lg-block">
             <div class="d-flex justify-content-between align-items-center">
-                <a href="<?=home_url()?>">
+                <a href="<?= home_url() ?>">
                     <img src="<?= get_template_directory_uri() ?>/assets/images/logo.svg" alt="Monty's Cafe logo" width="201" height="68">
                 </a>
                 <nav class="nav">
                     <ul class="d-flex justify-content-between align-items-center">
                         <li>
-                            <a href="">Menu</a>
+                            <a href="<?= home_url() ?>/menu">Menu</a>
                         </li>
                         <li class="ps-4">
-                            <a href="">Contact us</a>
+                            <a href="<?= home_url() ?>/contact-us">Contact us</a>
                         </li>
                         <li class="ps-4">
-                            <a href="">About us</a>
+                            <a href="<?= home_url() ?>/about-us">About us</a>
                         </li>
                         <li class="ps-4">
-                            <a href="">Private Events</a>
+                            <a href="<?= home_url() ?>/private-events">Private Events</a>
                         </li>
                         <li class="ps-4">
                             <a href="tel:+96103000000">
@@ -31,7 +31,7 @@
 
         <div class="mobile d-block d-lg-none">
             <div class="d-flex justify-content-between">
-                <a href="<?=home_url()?>">
+                <a href="<?= home_url() ?>">
                     <img src="<?= get_template_directory_uri() ?>/assets/images/logo-short.svg" alt="Monty's Cafe logo" width="80" height="68">
                 </a>
                 <div class="mobile-nav--list">
