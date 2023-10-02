@@ -1,5 +1,7 @@
 <?php get_header(); ?>
-
+<!-- <div id="right-arch" class="position-absolute" style="top:0;right:0">
+                <img src="<?= get_template_directory_uri() ?>/assets/images/arch-x.svg" alt="">
+            </div> -->
 <main id="homepage">
 
     <section id="section-1" class="home-section-1">
@@ -132,11 +134,16 @@
         </div>
 
     </section>
-
-    <section id="section-3" class="full-height home-section-3 py-3">
-        <div class="container-fluid">
-            <div class="swiper selection-slider py-6">
-                <div class="swiper-wrapper">
+    
+    <section id="section-3" class="home-section-3 py-3 overflow-x-hidden">
+                
+                <!-- <div class="position-absolute bottom-0 start-0" style="transform:rotate(180deg)">
+                    <img src="<?= get_template_directory_uri() ?>/assets/images/arch-x.svg" alt="">
+                </div> -->
+        <div class="container">
+           
+            <!-- <div class="swiper overflow-visible selection-slider">
+                <div class="swiper-wrapper my-6">
                     <div class="swiper-slide" data-dish-name="THE BEEF" data-dish-price="13"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png"></div>
                     <div class="swiper-slide" data-dish-name="CORDON" data-dish-price="12"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png"></div>
                     <div class="swiper-slide" data-dish-name="CRUNCH" data-dish-price="16"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png"></div>
@@ -159,10 +166,66 @@
                         <div class="prev-btn"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Left.svg" alt=""></div>
                         <div class="next-btn"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Right.svg" alt=""></div>
                     </div>
+                </div>
+            </div> -->
 
+            <div class="row justify-content-between">
+                <div class="col-3 d-flex align-self-end">
+                    <div class="swiper swiper-prev swiper-v me-auto" style="height:304px;">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                            <div class="swiper-slide d-flex"><img class="align-self-end" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="swiper swiper-main text-center">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                            <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div id="right-arch" class="position-absolute" style="top:0;right:0">
+                        <img src="<?= get_template_directory_uri() ?>/assets/images/arch-x.svg" alt="">
+                    </div>
+                    <div style="height:304px; overflow-x:hidden">
+                        <div class="swiper swiper-next swiper-v ms-auto overflow-x-hidden" style="height:304px">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
+            <div class="text-center d-flex justify-content-center my-3">
+                <div class="prev-btn"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Left.svg" alt=""></div>
+                <div class="next-btn"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Right.svg" alt=""></div>
+            </div>
 
         </div>
 

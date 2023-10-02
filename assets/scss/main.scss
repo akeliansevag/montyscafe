@@ -116,7 +116,7 @@ main {
   .selection-slider {
     .swiper-slide {
       img {
-        width: 100%;
+        width: 90%;
         vertical-align: bottom;
       }
     }
@@ -207,13 +207,13 @@ main {
   }
 
   &.menu-page {
-    .menu-item-categories{
-      a{
-        &.active, &:hover{
+    .menu-item-categories {
+      a {
+        &.active,
+        &:hover {
           background-color: $mc-secondary-color;
         }
       }
-      
     }
   }
 }
