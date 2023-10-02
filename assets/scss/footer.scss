@@ -1,16 +1,9 @@
 footer{
-    .social-icons{
-        a{
-            width: 56px;
-            height: 56px;
-            transition: background-color 0.2s ease-in;
-            &:hover{
-                background-color: $mc-white-color;
-            }
-        }
-    }
     .pill{
+        max-width: 800px;
         img{
+           background-color: $mc-tertiary-color;
+           width: 10%;
            &.burger{
             left: 5%;
             top: 17%;

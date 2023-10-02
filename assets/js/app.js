@@ -1,4 +1,5 @@
 (function () {
+
   const swiperPrev = new Swiper(".swiper-prev", {
     loop: true,
     direction: "vertical",

@@ -1,45 +1,48 @@
-<footer class="mt-9 mt-lg-16">
+<footer class="mt-9 mt-lg-16 movable-container">
     <section class="py-6 position-relative vh-75 d-flex align-items-center justify-content-center">
-        <div class="position-absolute h-100 pill">
-            <img class="position-absolute burger" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger">
-            <img class="position-absolute pizza" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza">
-            <img class="position-absolute hotdog" src="<?= get_template_directory_uri() ?>/assets/images/hotdog.svg" alt="Hotdog">
-            <img class="position-absolute pasta" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta">
-            <img class="position-absolute juice" src="<?= get_template_directory_uri() ?>/assets/images/juice.svg" alt="juice">
-            <svg class="w-100 arches h-100" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <mask id="mask0_178_366" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="811" height="679">
-                    <rect width="811" height="679" fill="#344647" fill-opacity="0.3" />
-                </mask>
-                <g mask="url(#mask0_178_366)">
-                    <rect x="120.5" y="120.5" width="570" height="844" rx="285" stroke="url(#paint0_linear_178_366)" />
-                    <rect x="60.5" y="60.5" width="690" height="1023" rx="345" stroke="url(#paint1_linear_178_366)" />
-                    <rect x="0.5" y="0.5" width="810" height="1199" rx="405" stroke="url(#paint2_linear_178_366)" />
-                    <rect x="180.5" y="180.5" width="450" height="784" rx="225" stroke="url(#paint3_linear_178_366)" />
-                    <rect x="240.367" y="240.367" width="330.266" height="575.397" rx="165.133" stroke="url(#paint4_linear_178_366)" stroke-width="0.733925" />
-                </g>
-                <defs>
-                    <linearGradient id="paint0_linear_178_366" x1="405.5" y1="120" x2="405.5" y2="770.5" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#F2DBC4" />
-                        <stop offset="1" stop-color="#344647" />
-                    </linearGradient>
-                    <linearGradient id="paint1_linear_178_366" x1="405.5" y1="60" x2="416.5" y2="694.5" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#F2DBC4" />
-                        <stop offset="1" stop-color="#344647" />
-                    </linearGradient>
-                    <linearGradient id="paint2_linear_178_366" x1="405.5" y1="0" x2="405.5" y2="716" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#F2DBC4" />
-                        <stop offset="1" stop-color="#344647" />
-                    </linearGradient>
-                    <linearGradient id="paint3_linear_178_366" x1="405.5" y1="180" x2="405.5" y2="689.5" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#F2DBC4" />
-                        <stop offset="1" stop-color="#344647" />
-                    </linearGradient>
-                    <linearGradient id="paint4_linear_178_366" x1="405.5" y1="240" x2="405.5" y2="613.935" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#F2DBC4" />
-                        <stop offset="1" stop-color="#344647" />
-                    </linearGradient>
-                </defs>
-            </svg>
+        <div class="position-absolute w-100 pill">
+            <div class="movable-container">
+                <img id="pill-1" class="movable-img position-absolute burger" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger">
+                <img id="pill-2" class="movable-img position-absolute pizza" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza">
+                <img id="pill-3" class="movable-img position-absolute hotdog" src="<?= get_template_directory_uri() ?>/assets/images/hotdog.svg" alt="Hotdog">
+                <img id="pill-4" class="movable-img position-absolute pasta" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta">
+                <img id="pill-5" class="movable-img position-absolute juice" src="<?= get_template_directory_uri() ?>/assets/images/juice.svg" alt="juice">
+                <svg class="w-100 arches h-100" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_178_366" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="811" height="679">
+                        <rect width="811" height="679" fill="#344647" fill-opacity="0.3" />
+                    </mask>
+                    <g mask="url(#mask0_178_366)">
+                        <rect x="120.5" y="120.5" width="570" height="844" rx="285" stroke="url(#paint0_linear_178_366)" />
+                        <rect x="60.5" y="60.5" width="690" height="1023" rx="345" stroke="url(#paint1_linear_178_366)" />
+                        <rect x="0.5" y="0.5" width="810" height="1199" rx="405" stroke="url(#paint2_linear_178_366)" />
+                        <rect x="180.5" y="180.5" width="450" height="784" rx="225" stroke="url(#paint3_linear_178_366)" />
+                        <rect x="240.367" y="240.367" width="330.266" height="575.397" rx="165.133" stroke="url(#paint4_linear_178_366)" stroke-width="0.733925" />
+                    </g>
+                    <defs>
+                        <linearGradient id="paint0_linear_178_366" x1="405.5" y1="120" x2="405.5" y2="770.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4" />
+                            <stop offset="1" stop-color="#344647" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_178_366" x1="405.5" y1="60" x2="416.5" y2="694.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4" />
+                            <stop offset="1" stop-color="#344647" />
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_178_366" x1="405.5" y1="0" x2="405.5" y2="716" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4" />
+                            <stop offset="1" stop-color="#344647" />
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_178_366" x1="405.5" y1="180" x2="405.5" y2="689.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4" />
+                            <stop offset="1" stop-color="#344647" />
+                        </linearGradient>
+                        <linearGradient id="paint4_linear_178_366" x1="405.5" y1="240" x2="405.5" y2="613.935" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4" />
+                            <stop offset="1" stop-color="#344647" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+
         </div>
 
         <div class="container">
@@ -97,7 +100,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/app.js?v=4"></script>
+<script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/app.js?v=7"></script>
 
 </body>
 
