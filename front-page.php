@@ -4,21 +4,21 @@
             </div> -->
 <main id="homepage">
 
-    <section id="section-1" class="home-section-1">
+    <section id="section-1" class="home-section-1 movable-container">
         <div class="d-flex justify-content-center align-items-center h-100 text-center">
             <div class="position-absolute w-100 pill">
-                <div class="movable-container">
-                    <img id="pill-1" class="p-2 position-absolute burger" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger">
-                    <img id="pill-2" class="p-2 position-absolute pizza" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza">
-                    <div id="pill-chef" class="position-absolute d-none d-lg-flex flex-column flex-lg-row justify-content-center align-items-center">
-                        <img class="w-auto p-2 rounded-circle " src="<?= get_template_directory_uri() ?>/assets/images/chef.png" alt="Chef" width="88" height="88">
+                <div class="">
+                    <img id="pill-1" data-value="-5" class="p-2 movable-img position-absolute burger" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger">
+                    <img id="pill-2" data-value="3" class="p-2 movable-img position-absolute pizza" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza">
+                    <div id="pill-chef" data-value="-1" class="movable-img position-absolute d-none d-lg-flex flex-column flex-lg-row justify-content-center align-items-center">
+                        <img class="w-auto p-2  rounded-circle " src="<?= get_template_directory_uri() ?>/assets/images/chef.png" alt="Chef" width="88" height="88">
                         <div class="d-none d-lg-flex flex-column text-start">
                             <h3 class="fs-8 white-color">Chadi</h3>
                             <p class="primary-color">Executive Chef</p>
                         </div>
                     </div>
-                    <img id="pill-4" class="p-2 position-absolute pasta" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta">
-                    <img id="pill-5" class="p-2 position-absolute juice" src="<?= get_template_directory_uri() ?>/assets/images/juice.svg" alt="juice">
+                    <img id="pill-4" data-value="7" class="p-2 movable-img position-absolute pasta" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta">
+                    <img id="pill-5" data-value="-4" class="p-2 movable-img position-absolute juice" src="<?= get_template_directory_uri() ?>/assets/images/juice.svg" alt="juice">
                     <svg class="w-100 arches h-100" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_178_366" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="811" height="679">
                             <rect width="811" height="679" fill="#344647" fill-opacity="0.3" />
@@ -112,11 +112,14 @@
 
     </section>
 
-    <section id="section-3" class="home-section-3 py-3 overflow-x-hidden">
-        <div class="container">
-            <div class="row vh-60 justify-content-between py-5">
-                <div class="col-3 d-flex align-self-end">
-                    <div style="height:30vh;" class="d-flex align-items-center">
+    <section id="section-3" class="home-section-3 py-6 pb-9 overflow-x-hidden">
+        <div class="container-lg container-fluid">
+            <div class="row justify-content-between py-md-5 py-2">
+                <div class="col-md-3 d-flex flex-column justify-content-between">
+                    <div class="text-center text-lg-start">
+                        <h2 class="primary-color fs-4">Discover our indulging selection</h2>
+                    </div>
+                    <div style="height:30vh;" class="d-none d-md-flex align-items-center">
                         <svg style="position:absolute; top:0; right:0; height:100%; transform:rotate(180deg)" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
                                 <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)" />
@@ -150,9 +153,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <div style="width:100%" class="d-flex align-items-center">
-                        <svg style="position:absolute; top:0px; left:50%; width:80%; transform:translateX(-50%)" viewBox="0 0 571 614" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="d-none d-md-block" style="position:absolute; top:0px; left:50%; width:80%; transform:translateX(-50%)" viewBox="0 0 571 614" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_486_12389)">
                                 <rect x="0.5" y="0.5" width="570" height="844" rx="285" stroke="url(#paint0_linear_486_12389)" />
                                 <rect x="60.5" y="60.5" width="450" height="784" rx="225" stroke="url(#paint1_linear_486_12389)" />
@@ -173,21 +176,21 @@
                         </svg>
                         <div class="swiper swiper-main text-center overflow-x-hidden">
                             <div class="swiper-wrapper align-items-center">
-                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide d-flex justify-content-center align-items-center mt-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div data-dish-name="THE BEEFs" data-dish-price="153" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div data-dish-name="THE BEEssdF" data-dish-price="143" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div data-dish-name="THE ewrBEEF" data-dish-price="103" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div data-dish-name="THE BdsfEEF" data-dish-price="193" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div data-dish-name="THE BEfdgEF" data-dish-price="183" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div data-dish-name="THE BEghrEF" data-dish-price="173" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div data-dish-name="THE BfhjEEF" data-dish-price="163" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div data-dish-name="THE BEhgjEF" data-dish-price="153" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div data-dish-name="THE BEsdfEF" data-dish-price="313" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div style="height:30vh;" class="d-flex align-items-center">
+                <div class="col-md-3 d-flex flex-column justify-content-between order-">
+                    <div style="height:30vh;" class="d-md-flex d-none align-items-center">
                         <svg style="position:absolute; top:0; left:0; height:100%" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
                                 <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)" />
@@ -221,20 +224,72 @@
                             </div>
                         </div>
                     </div>
+                    <div class="d-none d-md-flex mt-3 mt-md-0">
+                        <a class="m-auto d-inline-block text-center button-secondary py-3 px-5  my-2 my-sm-4 rounded-pill" href="<?= home_url() ?>/item-category/a-great-start/">View all Menu</a>
+                    </div>
 
                 </div>
             </div>
-
-            <div class="text-center d-flex justify-content-center my-3">
-                <div class="prev-btn"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Left.svg" alt=""></div>
-                <div class="next-btn"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Right.svg" alt=""></div>
+            <div>
+                <div class="swiper-info-container mt-4 mb-1 text-center">
+                    <h3 class="dish-name white-color fs-4">THE BEEF CORDON CRUNCH</h3>
+                    <h4 class="dish-price primary-color fs-6 fw-normal">$<span>11.00</span></h4>
+                </div>
+                <div class="text-center d-flex justify-content-center my-3">
+                    <div class="prev-btn cursor-pointer"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Left.svg" alt=""></div>
+                    <div class="next-btn cursor-pointer"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Right.svg" alt=""></div>
+                </div>
+                <div class="d-flex d-md-none mt-5 mt-md-0">
+                    <a class="m-auto d-inline-block text-center button-secondary py-3 px-5  my-2 my-sm-4 rounded-pill" href="<?= home_url() ?>/item-category/a-great-start/">View all Menu</a>
+                </div>
             </div>
+
 
         </div>
 
     </section>
 
-    <section id="section-4" class="full-height home-section-4 py-3 d-flex align-items-center">
+    <section id="section-4" class="full-height home-section-4 py-3 d-flex align-items-center justify-content-center">
+        <div class="position-absolute w-100 pill top-0 d-none d-md-block">
+            <div class="">
+                <svg class="w-100 arches h-100" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_178_366" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="811" height="679">
+                        <rect width="811" height="679" fill="#344647" fill-opacity="0.3" />
+                    </mask>
+                    <g mask="url(#mask0_178_366)">
+                        <rect x="120.5" y="120.5" width="570" height="844" rx="285" stroke="url(#paint0_linear_178_366)" />
+                        <rect x="60.5" y="60.5" width="690" height="1023" rx="345" stroke="url(#paint1_linear_178_366)" />
+                        <rect x="0.5" y="0.5" width="810" height="1199" rx="405" stroke="url(#paint2_linear_178_366)" />
+                        <rect x="180.5" y="180.5" width="450" height="784" rx="225" stroke="url(#paint3_linear_178_366)" />
+                        <rect x="240.367" y="240.367" width="330.266" height="575.397" rx="165.133" stroke="url(#paint4_linear_178_366)" stroke-width="0.733925" />
+                    </g>
+                    <defs>
+                        <linearGradient id="paint0_linear_178_366" x1="405.5" y1="120" x2="405.5" y2="770.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4" />
+                            <stop offset="1" stop-color="#344647" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_178_366" x1="405.5" y1="60" x2="416.5" y2="694.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4" />
+                            <stop offset="1" stop-color="#344647" />
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_178_366" x1="405.5" y1="0" x2="405.5" y2="716" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4" />
+                            <stop offset="1" stop-color="#344647" />
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_178_366" x1="405.5" y1="180" x2="405.5" y2="689.5" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4" />
+                            <stop offset="1" stop-color="#344647" />
+                        </linearGradient>
+                        <linearGradient id="paint4_linear_178_366" x1="405.5" y1="240" x2="405.5" y2="613.935" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F2DBC4" />
+                            <stop offset="1" stop-color="#344647" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+
+        </div>
+
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">

@@ -52,7 +52,7 @@ $items = $query->posts;
                                 <li class="menu-item mb-5">
                                     <?php $img = get_the_post_thumbnail($item->ID, 'lg-resize', ['class' => 'w-100']); ?>
                                     <?php if ($img) echo $img; ?>
-                                    <div class="name-price primary-color d-flex align-items-center justify-content-between mt-3">
+                                    <div class="name-price primary-color flex-lg-row flex-column d-flex align-items-lg-center justify-content-lg-between mt-3">
                                         <h4><?= $item->post_title; ?></h4>
                                         <h4>$12.50</h4>
                                     </div>
@@ -73,7 +73,7 @@ $items = $query->posts;
                                 <li class="menu-item mb-5">
                                     <?php $img = get_the_post_thumbnail($item->ID, 'lg-resize', ['class' => 'w-100']); ?>
                                     <?php if ($img) echo $img; ?>
-                                    <div class="name-price primary-color d-flex align-items-center justify-content-between mt-3">
+                                    <div class="name-price primary-color flex-lg-row flex-column d-flex align-items-lg-center justify-content-lg-between mt-3">
                                         <h4><?= $item->post_title; ?></h4>
                                         <h4>$12.50</h4>
                                     </div>

@@ -64,18 +64,19 @@ import Swiper from "swiper";
   //     },
   //   });
 
-  //   swiper.on("slideChange", (swiper) => {
-  //     const elem = document.querySelector(".dish-active");
-  //     elem.classList.remove("dish-active");
-  //     const current = document.querySelector(
-  //       '[data-swiper-slide-index="' + swiper.realIndex + '"'
-  //     );
-  //     const dishName = current.getAttribute("data-dish-name");
-  //     const dishPrice = current.getAttribute("data-dish-price");
-  //     setTimeout(() => {
-  //       document.querySelector(".dish-name").innerHTML = dishName;
-  //       document.querySelector(".dish-price span").innerHTML = dishPrice;
-  //       elem.classList.add("dish-active");
-  //     }, 200);
-  //   });
+    swiperMain.on("slideChange", (swiper) => {
+      
+
+      const current = document.querySelector(".swiper-main .swiper-slide-active");
+      const dishName = current.getAttribute("data-dish-name");
+      const dishPrice = current.getAttribute("data-dish-price"); 
+
+      document.querySelector(".swiper-info-container").style.opacity="0"
+        setTimeout(() => {
+          document.querySelector(".dish-name").innerHTML = dishName;
+          document.querySelector(".dish-price span").innerHTML = dishPrice;
+        document.querySelector(".swiper-info-container").style.opacity = "1"
+      }, 200);
+
+    });
 })();

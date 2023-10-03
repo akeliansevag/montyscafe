@@ -8,7 +8,7 @@
                 <nav class="nav">
                     <ul class="d-flex justify-content-between align-items-center">
                         <li>
-                            <a href="<?= home_url() ?>/menu">Menu</a>
+                            <a href="<?= home_url() ?>/item-category/a-great-start/">Menu</a>
                         </li>
                         <li class="ps-4">
                             <a href="<?= home_url() ?>/contact-us">Contact us</a>
@@ -48,10 +48,10 @@
                     <div class="nav">
                         <div class="container">
                             <ul class="d-flex flex-column align-items-start justify-content-start text-start">
-                                <li class="my-3"><a href="" class="item-link active">Menu</a></li>
-                                <li class="my-3"><a href="" class="item-link">About us</a></li>
-                                <li class="my-3"><a href="" class="item-link">Contact us</a></li>
-                                <li class="my-3"><a href="" class="item-link">Private Events</a></li>
+                                <li class="my-3"><a href="<?= home_url() ?>/item-category/a-great-start/" class="item-link active">Menu</a></li>
+                                <li class="my-3"><a href="<?= home_url() ?>/about-us/" class="item-link">About us</a></li>
+                                <li class="my-3"><a href="<?= home_url() ?>/contact-us/" class="item-link">Contact us</a></li>
+                                <li class="my-3"><a href="<?= home_url() ?>/private-events/" class="item-link">Private Events</a></li>
                             </ul>
                         </div>
                     </div>
