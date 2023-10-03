@@ -26,8 +26,9 @@ $font-sizes: (
   //18px
   8: 1rem,
   // 16px
-  9: 0.875rem, // 14px,
-  20: 1.25rem
+  9: 0.875rem,
+  // 14px,
+  20: 1.25rem,
 );
 
 $spacer: 1rem;
@@ -42,20 +43,19 @@ $spacers: (
   7: $spacer * 7,
   9: $spacer * 9,
   10: $spacer * 10,
-  16: $spacer * 16
+  16: $spacer * 16,
 );
-
 
 $border-radius-xxl: 1.875rem;
 
 $utilities: (
-    "viewport-height": (
+  "viewport-height": (
     property: height,
     class: vh,
     values: (
       60: 60vh,
       75: 75vh,
-      100: 100vh
-    )
+      100: 100vh,
+    ),
   ),
 );

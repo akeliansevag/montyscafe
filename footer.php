@@ -2,11 +2,11 @@
     <section class="py-6 position-relative vh-75 d-flex align-items-center justify-content-center">
         <div class="position-absolute w-100 pill">
             <div class="movable-container">
-                <img id="pill-1" class="movable-img position-absolute burger" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger">
-                <img id="pill-2" class="movable-img position-absolute pizza" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza">
-                <img id="pill-3" class="movable-img position-absolute hotdog" src="<?= get_template_directory_uri() ?>/assets/images/hotdog.svg" alt="Hotdog">
-                <img id="pill-4" class="movable-img position-absolute pasta" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta">
-                <img id="pill-5" class="movable-img position-absolute juice" src="<?= get_template_directory_uri() ?>/assets/images/juice.svg" alt="juice">
+                <img id="pill-1" class="p-2 position-absolute burger" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger">
+                <img id="pill-2" class="p-2 position-absolute pizza" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza">
+                <img id="pill-3" class="p-2 position-absolute hotdog" src="<?= get_template_directory_uri() ?>/assets/images/hotdog.svg" alt="Hotdog">
+                <img id="pill-4" class="p-2 position-absolute pasta" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta">
+                <img id="pill-5" class="p-2 position-absolute juice" src="<?= get_template_directory_uri() ?>/assets/images/juice.svg" alt="juice">
                 <svg class="w-100 arches h-100" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="mask0_178_366" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="811" height="679">
                         <rect width="811" height="679" fill="#344647" fill-opacity="0.3" />

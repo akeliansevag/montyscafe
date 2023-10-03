@@ -138,14 +138,15 @@ button.full {
   }
 }
 
-.social-icons{
-  a{
-      width: 56px;
-      height: 56px;
-      transition: background-color 0.2s ease-in;
-      &:hover{
-          background-color: $mc-white-color;
-      }
+.social-icons {
+  a {
+    width: 56px;
+    height: 56px;
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+      background-color: $mc-white-color;
+    }
   }
 }
 
@@ -154,38 +155,36 @@ img.movable-img {
   transition: transform 0.2s ease; /* Transition effect */
 }
 
-.pill{
+.pill {
   max-width: 800px;
-  img{
-     background-color: $mc-tertiary-color;
-     width: 10%;
-     &.burger{
-      left: 5%;
-      top: 17%;
-     } 
-     &.pizza{
-      top: 3%;
-      left: 48%;
-     }
-     &.hotdog{
-      right: 12%;
+
+  img {
+    background-color: $mc-tertiary-color;
+    width: 10%;
+
+    &.burger {
       top: 12%;
-     }
-     &.juice{
-      top: 77%;
-      left: 11%;
-     }
-     &.pasta{
-      top: 76%;
-      right: 0%;
-     }
+      left: 8%;
+    }
+    &.pizza {
+      top: -5%;
+      left: 48%;
+    }
+    &.hotdog {
+      top: 12%;
+      right: 12%;
+    }
+    &.juice {
+      top: 66%;
+      left: 0;
+    }
+    &.pasta {
+      top: 56%;
+      right: 0;
+    }
   }
-  #pill-chef{
+  #pill-chef {
     top: 3%;
     right: 0%;
   }
-}
-
-.opacity-30{
-  opacity:30%;
 }

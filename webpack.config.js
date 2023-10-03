@@ -7,4 +7,7 @@ module.exports = {
     filename: "build/js/app.js",
     path: path.resolve(__dirname, "assets"),
   },
+  optimization: {
+    minimize: true, // Enable minimization
+  },
 };
