@@ -37,7 +37,9 @@
 
 	<meta name="theme-color" content="#344647" />
 
-	<link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/css/app.css?v=13">
+	<link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/build/css/app.css">
+	<script type="module" src="<?= get_template_directory_uri() ?>/assets/build/js/app.js"></script>
+
 	<?php wp_head(); ?>
 </head>
 

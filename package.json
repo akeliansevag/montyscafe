@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
+    "@fancyapps/ui": "^5.0.23",
     "bootstrap": "^5.3.1",
-    "node-sass": "^9.0.0"
+    "node-sass": "^9.0.0",
+    "concurrently": "^8.2.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "dev": "node-sass --output-style compressed -o ./assets/css ./assets/scss/app.scss",
-    "watch": "npm run dev -- --watch",
+    "dev:css": "node-sass --output-style compressed -o ./assets/build/css ./assets/src/scss/app.scss",
+    "watch:css": "npm run dev:css -- --watch",
+    "dev-create:css": "node-sass --output-style compressed --watch-delay 1000 -o ./assets/build/css ./assets/src/scss/app.scss",
+    "create:css": "npm run dev-create:css",
+    "dev:js": "webpack --watch",
+    "dev": "concurrently \"npm run create:css\" \"npm run watch:css\" \"npm run dev:js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
