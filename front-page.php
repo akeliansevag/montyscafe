@@ -6,6 +6,57 @@
 
     <section id="section-1" class="home-section-1">
         <div class="d-flex justify-content-center align-items-center h-100 text-center">
+            <div class="position-absolute w-100 pill">
+                <div class="movable-container">
+                    <img id="pill-1" class="movable-img position-absolute burger" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger">
+                    <img id="pill-2" class="movable-img position-absolute pizza" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza">
+                    <div id="pill-chef" class="movable-img position-absolute rounded-circle d-none d-lg-flex flex-column flex-lg-row justify-content-center align-items-center">
+                        <img class="w-auto p-2" src="<?= get_template_directory_uri() ?>/assets/images/chef.png" alt="Chef" width="88" height="88">
+                        <div class="d-none d-lg-flex flex-column text-start">
+                            <h3 class="fs-8 white-color">Chadi</h3>
+                            <p class="primary-color">Executive Chef</p>
+                        </div>
+                    </div>
+                    <!-- <img id="pill-3" class="movable-img position-absolute hotdog" src="<?= get_template_directory_uri() ?>/assets/images/hotdog.svg" alt="Hotdog"> -->
+                    <img id="pill-4" class="movable-img position-absolute pasta" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta">
+                    <img id="pill-5" class="movable-img position-absolute juice" src="<?= get_template_directory_uri() ?>/assets/images/juice.svg" alt="juice">
+                    <svg class="w-100 arches h-100" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0_178_366" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="811" height="679">
+                            <rect width="811" height="679" fill="#344647" fill-opacity="0.3" />
+                        </mask>
+                        <g mask="url(#mask0_178_366)">
+                            <rect x="120.5" y="120.5" width="570" height="844" rx="285" stroke="url(#paint0_linear_178_366)" />
+                            <rect x="60.5" y="60.5" width="690" height="1023" rx="345" stroke="url(#paint1_linear_178_366)" />
+                            <rect x="0.5" y="0.5" width="810" height="1199" rx="405" stroke="url(#paint2_linear_178_366)" />
+                            <rect x="180.5" y="180.5" width="450" height="784" rx="225" stroke="url(#paint3_linear_178_366)" />
+                            <rect x="240.367" y="240.367" width="330.266" height="575.397" rx="165.133" stroke="url(#paint4_linear_178_366)" stroke-width="0.733925" />
+                        </g>
+                        <defs>
+                            <linearGradient id="paint0_linear_178_366" x1="405.5" y1="120" x2="405.5" y2="770.5" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F2DBC4" />
+                                <stop offset="1" stop-color="#344647" />
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_178_366" x1="405.5" y1="60" x2="416.5" y2="694.5" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F2DBC4" />
+                                <stop offset="1" stop-color="#344647" />
+                            </linearGradient>
+                            <linearGradient id="paint2_linear_178_366" x1="405.5" y1="0" x2="405.5" y2="716" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F2DBC4" />
+                                <stop offset="1" stop-color="#344647" />
+                            </linearGradient>
+                            <linearGradient id="paint3_linear_178_366" x1="405.5" y1="180" x2="405.5" y2="689.5" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F2DBC4" />
+                                <stop offset="1" stop-color="#344647" />
+                            </linearGradient>
+                            <linearGradient id="paint4_linear_178_366" x1="405.5" y1="240" x2="405.5" y2="613.935" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F2DBC4" />
+                                <stop offset="1" stop-color="#344647" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+
+            </div>
             <div class="container">
                 <h1 class="fs-1 primary-color animation fadeInUpDown opacity-0">Where stories are told through food</h1>
 
@@ -16,7 +67,7 @@
             </div>
         </div>
 
-        <div class="pill-container">
+        <!-- <div class="pill-container">
             <img class="movable-img position-absolute p-2" src="<?= get_template_directory_uri() ?>/assets/images/juice.svg" alt="Juice" width="91" height="97">
             <img class="movable-img position-absolute p-2" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta" width="96" height="115">
             <img class="movable-img position-absolute p-2" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza" width="99" height="103">
@@ -63,7 +114,7 @@
                     </linearGradient>
                 </defs>
             </svg>
-        </div>
+        </div> -->
 
         <!-- <div class="pill-container">
                 <div class="pill pill-1">
@@ -134,7 +185,7 @@
         </div>
 
     </section>
-    
+
     <section id="section-3" class="home-section-3 py-3 overflow-x-hidden">
         <div class="container">
             <div class="row vh-60 justify-content-between py-5">
@@ -142,20 +193,20 @@
                     <div style="height:30vh;" class="d-flex align-items-center">
                         <svg style="position:absolute; top:0; right:0; height:100%; transform:rotate(180deg)" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
-                            <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)"/>
+                                <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)" />
                             </mask>
                             <g mask="url(#mask0_464_12384)">
-                            <rect y="3.05176e-05" width="363" height="334" fill="url(#paint1_linear_464_12384)"/>
+                                <rect y="3.05176e-05" width="363" height="334" fill="url(#paint1_linear_464_12384)" />
                             </g>
                             <defs>
-                            <linearGradient id="paint0_linear_464_12384" x1="167" y1="0" x2="167" y2="380.292" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#F2DBC4"/>
-                            <stop offset="1" stop-color="#344647"/>
-                            </linearGradient>
-                            <linearGradient id="paint1_linear_464_12384" x1="-1.35228e-06" y1="167" x2="363" y2="167" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#F2DBC4"/>
-                            <stop offset="1" stop-color="#344647"/>
-                            </linearGradient>
+                                <linearGradient id="paint0_linear_464_12384" x1="167" y1="0" x2="167" y2="380.292" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F2DBC4" />
+                                    <stop offset="1" stop-color="#344647" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_464_12384" x1="-1.35228e-06" y1="167" x2="363" y2="167" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F2DBC4" />
+                                    <stop offset="1" stop-color="#344647" />
+                                </linearGradient>
                             </defs>
                         </svg>
                         <div class="swiper swiper-prev swiper-v me-auto overflow-x-hidden pe-4 px-lg-5" style="height:100%;border-top-right-radius: 1000px; border-bottom-right-radius: 1000px;">
@@ -177,21 +228,21 @@
                     <div style="width:100%" class="d-flex align-items-center">
                         <svg style="position:absolute; top:0px; left:50%; width:80%; transform:translateX(-50%)" viewBox="0 0 571 614" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_486_12389)">
-                            <rect x="0.5" y="0.5" width="570" height="844" rx="285" stroke="url(#paint0_linear_486_12389)"/>
-                            <rect x="60.5" y="60.5" width="450" height="784" rx="225" stroke="url(#paint1_linear_486_12389)"/>
+                                <rect x="0.5" y="0.5" width="570" height="844" rx="285" stroke="url(#paint0_linear_486_12389)" />
+                                <rect x="60.5" y="60.5" width="450" height="784" rx="225" stroke="url(#paint1_linear_486_12389)" />
                             </g>
                             <defs>
-                            <linearGradient id="paint0_linear_486_12389" x1="285.5" y1="0" x2="285.5" y2="650.5" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#F2DBC4"/>
-                            <stop offset="1" stop-color="#344647"/>
-                            </linearGradient>
-                            <linearGradient id="paint1_linear_486_12389" x1="285.5" y1="60" x2="285.5" y2="569.5" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#F2DBC4"/>
-                            <stop offset="1" stop-color="#344647"/>
-                            </linearGradient>
-                            <clipPath id="clip0_486_12389">
-                            <rect width="571" height="614" fill="white"/>
-                            </clipPath>
+                                <linearGradient id="paint0_linear_486_12389" x1="285.5" y1="0" x2="285.5" y2="650.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F2DBC4" />
+                                    <stop offset="1" stop-color="#344647" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_486_12389" x1="285.5" y1="60" x2="285.5" y2="569.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F2DBC4" />
+                                    <stop offset="1" stop-color="#344647" />
+                                </linearGradient>
+                                <clipPath id="clip0_486_12389">
+                                    <rect width="571" height="614" fill="white" />
+                                </clipPath>
                             </defs>
                         </svg>
                         <div class="swiper swiper-main text-center overflow-x-hidden">
@@ -213,20 +264,20 @@
                     <div style="height:30vh;" class="d-flex align-items-center">
                         <svg style="position:absolute; top:0; left:0; height:100%" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
-                            <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)"/>
+                                <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)" />
                             </mask>
                             <g mask="url(#mask0_464_12384)">
-                            <rect y="3.05176e-05" width="363" height="334" fill="url(#paint1_linear_464_12384)"/>
+                                <rect y="3.05176e-05" width="363" height="334" fill="url(#paint1_linear_464_12384)" />
                             </g>
                             <defs>
-                            <linearGradient id="paint0_linear_464_12384" x1="167" y1="0" x2="167" y2="380.292" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#F2DBC4"/>
-                            <stop offset="1" stop-color="#344647"/>
-                            </linearGradient>
-                            <linearGradient id="paint1_linear_464_12384" x1="-1.35228e-06" y1="167" x2="363" y2="167" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#F2DBC4"/>
-                            <stop offset="1" stop-color="#344647"/>
-                            </linearGradient>
+                                <linearGradient id="paint0_linear_464_12384" x1="167" y1="0" x2="167" y2="380.292" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F2DBC4" />
+                                    <stop offset="1" stop-color="#344647" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_464_12384" x1="-1.35228e-06" y1="167" x2="363" y2="167" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F2DBC4" />
+                                    <stop offset="1" stop-color="#344647" />
+                                </linearGradient>
                             </defs>
                         </svg>
 
@@ -244,7 +295,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
 
