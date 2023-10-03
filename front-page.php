@@ -332,29 +332,37 @@
         </div>
     </section>
 
-    <section id="section-5" class="full-height home-section-5 py-3 d-flex align-items-center">
+    <section id="section-5" class="mt-9 home-section-5 py-3 d-flex align-items-center">
         <div class="container">
             <div class="review-item">
                 <div class="row">
-                    <div class="col-lg-2">
-                        <div class="reviewer">
-
+                    <div class="col-lg-3">
+                        <div class="reviewer d-flex align-items-center">
+                            <img class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.png" alt="Reviewer picture">
+                            <div>
+                                <h6 class="white-color fs-7">Mountasser Hachem</h6>
+                                <h6 class="primary-color">Founder & Chairman</h6>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-10">
-                        <p>Amazing experience and exquisite food that transports you through its unique flavors and combinations.</p>
+                    <div class="col-lg-9">
+                        <h4 class="opacity-30 fs-2 primary-color mt-n3">Amazing experience and exquisite food that transports you through its unique flavors and combinations.</h4>
                     </div>
                 </div>
             </div>
-            <div class="review-item">
+            <div class="review-item mt-5">
                 <div class="row">
-                    <div class="col-lg-2">
-                        <div class="reviewer">
-
+                    <div class="col-lg-3">
+                        <div class="reviewer d-flex align-items-center">
+                            <img class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.png" alt="Reviewer picture">
+                            <div>
+                                <h6 class="white-color fs-7">Mountasser Hachem</h6>
+                                <h6 class="primary-color">Founder & Chairman</h6>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-10">
-                        <p>Amazing experience and exquisite food that transports you through its unique flavors and combinations.</p>
+                    <div class="col-lg-9">
+                        <h4 class="opacity-30 fs-2 primary-color mt-n3">Amazing experience and exquisite food that transports you through its unique flavors and combinations.</h4>
                     </div>
                 </div>
             </div>
