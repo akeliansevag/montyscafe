@@ -264,7 +264,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="reviewer d-flex align-items-center">
-                            <img class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.png" alt="Reviewer picture">
+                            <img class="me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.png" alt="Reviewer picture">
                             <div>
                                 <h6 class="white-color fs-7">Mountasser Hachem</h6>
                                 <h6 class="primary-color">Founder & Chairman</h6>
@@ -272,7 +272,7 @@
                         </div>
                     </div>
                     <div class="col-lg-9">
-                        <h4 class="opacity-30 fs-2 primary-color mt-n3">Amazing experience and exquisite food that transports you through its unique flavors and combinations.</h4>
+                        <h4 class="color-animated fs-2 primary-color mt-n3"><span>Amazing experience and exquisite food that</span> <span> transports you through </span> <span>unique flavors and combinations.</span></h4>
                     </div>
                 </div>
             </div>
@@ -280,7 +280,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="reviewer d-flex align-items-center">
-                            <img class="me-2" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.png" alt="Reviewer picture">
+                            <img class="me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.png" alt="Reviewer picture">
                             <div>
                                 <h6 class="white-color fs-7">Mountasser Hachem</h6>
                                 <h6 class="primary-color">Founder & Chairman</h6>
@@ -288,7 +288,7 @@
                         </div>
                     </div>
                     <div class="col-lg-9">
-                        <h4 class="opacity-30 fs-2 primary-color mt-n3">Amazing experience and exquisite food that transports you through its unique flavors and combinations.</h4>
+                        <h4 class="color-animated fs-2 primary-color mt-n3"><span>Amazing experience and exquisite</span> <span>food that transports you</span> <span>through its unique flavors and combinations.</span></h4>
                     </div>
                 </div>
             </div>
@@ -296,5 +296,4 @@
     </section>
 </main>
 
-<script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/src/js/homepage.js"></script>
 <?php get_footer(); ?>

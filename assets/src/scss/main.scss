@@ -156,4 +156,12 @@ main {
       }
     }
   }
+  #section-5{
+    .color-animated{
+      span{
+        opacity:0.3;
+        transition: opacity 0.2s ease-out;
+      }
+    }
+  }
 }
