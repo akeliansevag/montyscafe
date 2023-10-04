@@ -1,7 +1,7 @@
 main {
   .home-section {
     &-1 {
-      height: calc(100svh - var(--mc-header-height) - 3rem);
+      height: calc(100dvh - var(--mc-header-height));
 
       .scroll-hint-wrapper {
         position: absolute;
