@@ -2,7 +2,7 @@ main {
   .home-section {
     &-1 {
       height: calc(100dvh - var(--mc-header-height));
-      transition: all 0.2s linear;
+      transition: all 0.2s linear; 
       .scroll-hint-wrapper {
         position: absolute;
         bottom: 20px;
