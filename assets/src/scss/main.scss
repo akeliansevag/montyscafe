@@ -1,7 +1,7 @@
 main {
   .home-section {
     &-1 {
-      height: calc(100vh - var(--mc-header-height));
+      height: calc(100vh - var(--mc-header-height) - 3rem);
 
       .scroll-hint-wrapper {
         position: absolute;
@@ -30,7 +30,6 @@ main {
       }
     }
     &-2 {
-      padding-top: 18vh;
       .reserve-play-container {
         bottom: -8px;
         left: -16px;
@@ -46,7 +45,6 @@ main {
   }
   .swiper-info-container {
     transition: opacity 0.2s ease-in;
-
   }
   &.contact-us,
   &.private-events {
@@ -143,10 +141,10 @@ main {
       }
     }
   }
-  #section-5{
-    .color-animated{
-      span{
-        opacity:0.3;
+  #section-5 {
+    .color-animated {
+      span {
+        opacity: 0.3;
         transition: opacity 0.2s ease-out;
       }
     }

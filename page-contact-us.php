@@ -2,7 +2,7 @@
 
 <main id="contact-us" class="contact-us">
     
-    <section id="section-1" class="section-1">
+    <section id="section-1" class="section-1 mt-7">
 
         <div class="container">
 

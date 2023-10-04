@@ -1,10 +1,7 @@
 <?php get_header(); ?>
-<!-- <div id="right-arch" class="position-absolute" style="top:0;right:0">
-                <img src="<?= get_template_directory_uri() ?>/assets/images/arch-x.svg" alt="">
-            </div> -->
-<main id="homepage">
 
-    <section id="section-1" class="home-section-1 movable-container">
+<main id="homepage">
+    <section id="section-1" class="home-section-1 pt-5 movable-container">
         <div class="d-flex justify-content-center align-items-center h-100 text-center">
             <div class="position-absolute w-100 pill">
                 <div class="">
@@ -13,7 +10,7 @@
                     <div id="pill-chef" data-value="-1" class="movable-img position-absolute d-none d-lg-flex flex-column flex-lg-row justify-content-center align-items-center">
                         <img class="w-auto p-2  rounded-circle " src="<?= get_template_directory_uri() ?>/assets/images/chef.png" alt="Chef" width="88" height="88">
                         <div class="d-none d-lg-flex flex-column text-start">
-                            <h3 class="fs-8 white-color">Chadi</h3>
+                            <h3 class="fs-8 white-color">Chadi Nassif</h3>
                             <p class="primary-color">Executive Chef</p>
                         </div>
                     </div>
@@ -59,9 +56,9 @@
             <div class="container">
                 <h1 class="fs-1 primary-color animation fadeInUpDown opacity-0 test2">Where stories are told through food</h1>
 
-                <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center mt-5">
-                    <button class="button-secondary py-3 px-5 mx-2 my-2 my-sm-4 rounded-pill full">View all Menu</button>
-                    <button class="button-tertiary py-3 px-5 mx-2 my-2 my-sm-4 rounded-pill full">Reserve Event</button>
+                <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center mt-3 mt-sm-6">
+                    <a href="<?= home_url() ?>/menu/a-great-start/" class="button-secondary py-3 px-5 mx-2 rounded-pill full">View all Menu</a>
+                    <a href="<?= home_url() ?>/private-events" class="button-tertiary py-3 px-5 mx-2 mt-2 mt-sm-0 rounded-pill full">Reserve Event</a>
                 </div>
             </div>
         </div>
@@ -71,7 +68,7 @@
         </div>
     </section>
 
-    <section id="section-2" class="full-height home-section-2 pb-5">
+    <section id="section-2" class="home-section-2 mt-9">
         <div class="container">
             <div class="reserve-section primary-bg rounded-5 w-100 px-5 py-6 d-flex align-items-center justify-content-between">
                 <div class="row align-items-center justify-content-between">
@@ -112,14 +109,14 @@
 
     </section>
 
-    <section id="section-3" class="home-section-3 py-6 pb-9 overflow-x-hidden">
+    <section id="section-3" class="home-section-3 mt-9 overflow-x-hidden">
         <div class="container-lg container-fluid">
-            <div class="row justify-content-between py-md-5 py-2">
+            <div class="row justify-content-between">
                 <div class="col-md-3 d-flex flex-column justify-content-between">
                     <div class="text-center text-lg-start">
-                        <h2 class="primary-color fs-4">Discover our indulging selection</h2>
+                        <h2 class="primary-color fs-3">Discover our indulging selection</h2>
                     </div>
-                    <div style="height:30vh;" class="d-none d-md-flex align-items-center">
+                    <div style="height:30vh;" class="d-none d-md-flex align-items-center mt-6">
                         <svg style="position:absolute; top:0; right:0; height:100%; transform:rotate(180deg)" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
                                 <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)" />
@@ -225,22 +222,22 @@
                         </div>
                     </div>
                     <div class="d-none d-md-flex mt-3 mt-md-0">
-                        <a class="m-auto d-inline-block text-center button-secondary py-3 px-5  my-2 my-sm-4 rounded-pill" href="<?= home_url() ?>/item-category/a-great-start/">View all Menu</a>
+                        <a class="m-auto d-inline-block text-center button-secondary py-3 px-5  my-2 my-sm-4 rounded-pill" href="<?= home_url() ?>/menu/a-great-start/">View all Menu</a>
                     </div>
 
                 </div>
             </div>
             <div>
-                <div class="swiper-info-container mt-4 mb-1 text-center">
+                <div class="swiper-info-container text-center mt-3 mt-md-0">
                     <h3 class="dish-name white-color fs-4">THE BEEF CORDON CRUNCH</h3>
                     <h4 class="dish-price primary-color fs-6 fw-normal">$<span>11.00</span></h4>
                 </div>
-                <div class="text-center d-flex justify-content-center my-3">
+                <div class="text-center d-flex justify-content-center mt-3">
                     <div class="prev-btn cursor-pointer"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Left.svg" alt=""></div>
                     <div class="next-btn cursor-pointer"><img src="<?= get_template_directory_uri() ?>/assets/images/Caret-Right.svg" alt=""></div>
                 </div>
                 <div class="d-flex d-md-none mt-5 mt-md-0">
-                    <a class="m-auto d-inline-block text-center button-secondary py-3 px-5  my-2 my-sm-4 rounded-pill" href="<?= home_url() ?>/item-category/a-great-start/">View all Menu</a>
+                    <a class="m-auto d-inline-block text-center button-secondary py-3 px-5  my-2 my-sm-4 rounded-pill" href="<?= home_url() ?>/menu/a-great-start/">View all Menu</a>
                 </div>
             </div>
 
@@ -249,7 +246,7 @@
 
     </section>
 
-    <section id="section-4" class="full-height home-section-4 py-3 d-flex align-items-center justify-content-center">
+    <section id="section-4" class="home-section-4 mt-9 d-flex align-items-center justify-content-center">
         <div class="position-absolute w-100 pill top-0 d-none d-md-block">
             <div class="">
                 <svg class="w-100 arches h-100" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -313,7 +310,7 @@
         </div>
     </section>
 
-    <section id="section-5" class="mt-9 home-section-5 py-3 d-flex align-items-center">
+    <section id="section-5" class="home-section-5 mt-9 d-flex align-items-center">
         <div class="container">
             <div class="review-item">
                 <div class="row">
@@ -321,7 +318,7 @@
                         <div class="reviewer d-flex align-items-center">
                             <img class="me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.png" alt="Reviewer picture">
                             <div>
-                                <h6 class="white-color fs-7">Mountasser Hachem</h6>
+                                <h6 class="white-color fs-7">James Bond</h6>
                                 <h6 class="primary-color">Founder & Chairman</h6>
                             </div>
                         </div>
@@ -337,7 +334,7 @@
                         <div class="reviewer d-flex align-items-center">
                             <img class="me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.png" alt="Reviewer picture">
                             <div>
-                                <h6 class="white-color fs-7">Mountasser Hachem</h6>
+                                <h6 class="white-color fs-7">Leonardo DiCaprio</h6>
                                 <h6 class="primary-color">Founder & Chairman</h6>
                             </div>
                         </div>

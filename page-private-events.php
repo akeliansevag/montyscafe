@@ -2,7 +2,7 @@
 
 <main id="private-events" class="private-events">
     
-    <section id="section-1" class="section-1">
+    <section id="section-1" class="section-1 mt-7">
 
         <div class="container">
 

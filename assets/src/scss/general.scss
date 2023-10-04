@@ -62,6 +62,7 @@ h5,
 h6,
 p {
   margin: 0;
+  line-height: inherit;
 }
 
 select,
@@ -156,7 +157,7 @@ img.movable-img {
 }
 
 .pill {
-  max-width: 800px;
+  max-width: 900px;
 
   img {
     background-color: $mc-tertiary-color;
@@ -189,6 +190,6 @@ img.movable-img {
   }
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }

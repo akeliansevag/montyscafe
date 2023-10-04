@@ -24,8 +24,8 @@ $items = $query->posts;
 
 ?>
 
-<main id="menu-page" class="menu-page py-3">
-    <section id="section-1" class="section-1">
+<main id="menu-page" class="menu-page">
+    <section id="section-1" class="section-1 mt-7">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-3">
@@ -46,10 +46,7 @@ $items = $query->posts;
                         <?php if ($items) : ?>
                             <?php $break = ceil(count($items) / 2); ?>
                             <?php foreach ($items as $key => $item) : ?>
-                                <?php
-                                if (($key + 1) == $break) break;
-                                ?>
-                                <li class="menu-item mb-5">
+                                <li class="menu-item mb-6">
                                     <?php $img = get_the_post_thumbnail($item->ID, 'lg-resize', ['class' => 'w-100']); ?>
                                     <?php if ($img) echo $img; ?>
                                     <div class="name-price primary-color flex-lg-row flex-column d-flex align-items-lg-center justify-content-lg-between mt-3">
@@ -61,6 +58,9 @@ $items = $query->posts;
                                     </div>
                                 </li>
                                 <?php unset($items[$key]); ?>
+                                <?php
+                                    if (($key + 1) == $break) break;
+                                ?>
                             <?php endforeach; ?>
                         <?php endif; ?>
                     </ul>
@@ -70,7 +70,7 @@ $items = $query->posts;
                     <ul class="menu-items">
                         <?php if ($items) : ?>
                             <?php foreach ($items as $key => $item) : ?>
-                                <li class="menu-item mb-5">
+                                <li class="menu-item mb-6">
                                     <?php $img = get_the_post_thumbnail($item->ID, 'lg-resize', ['class' => 'w-100']); ?>
                                     <?php if ($img) echo $img; ?>
                                     <div class="name-price primary-color flex-lg-row flex-column d-flex align-items-lg-center justify-content-lg-between mt-3">
