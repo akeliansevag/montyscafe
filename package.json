@@ -6,8 +6,8 @@
   "devDependencies": {
     "@fancyapps/ui": "^5.0.23",
     "bootstrap": "^5.3.1",
-    "node-sass": "^9.0.0",
     "concurrently": "^8.2.1",
+    "node-sass": "^9.0.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },

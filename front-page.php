@@ -57,7 +57,7 @@
 
             </div>
             <div class="container">
-                <h1 class="fs-1 primary-color animation fadeInUpDown opacity-0">Where stories are told through food</h1>
+                <h1 class="fs-1 primary-color animation fadeInUpDown opacity-0 test2">Where stories arRe told through food</h1>
 
                 <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center mt-5">
                     <button class="button-secondary py-3 px-5 mx-2 my-2 my-sm-4 rounded-pill full">View all Menu</button>
@@ -81,7 +81,7 @@
 
                     <div class="col-lg-4">
                         <div class="reserve-text text-center">
-                            <p class="fs-5">Get the perfect dessert for any occasion</p>
+                            <p class="fs-5 test">Get the perfect dessert for any occasion</p>
                             <a href="#" class="d-inline-block button-secondary py-3 px-5 mx-2 my-2 my-sm-4 rounded-pill full">Reserve</a>
                         </div>
                     </div>
@@ -327,7 +327,7 @@
                         </div>
                     </div>
                     <div class="col-lg-9">
-                        <h4 class="color-animated fs-2 primary-color mt-n3"><span>Amazing experience and exquisite food that</span> <span> transports you through </span> <span>unique flavors and combinations.</span></h4>
+                        <h4 class="color-animated fs-2 primary-color mt-0 mt-lg-n3"><span>Amazing experience and exquisite food that</span> <span> transports you through </span> <span>unique flavors and combinations.</span></h4>
                     </div>
                 </div>
             </div>
@@ -343,7 +343,7 @@
                         </div>
                     </div>
                     <div class="col-lg-9">
-                        <h4 class="color-animated fs-2 primary-color mt-n3"><span>Amazing experience and exquisite</span> <span>food that transports you</span> <span>through its unique flavors and combinations.</span></h4>
+                        <h4 class="color-animated fs-2 primary-color mt-0 mt-lg-n3"><span>Amazing experience and exquisite</span> <span>food that transports you</span> <span>through its unique flavors and combinations.</span></h4>
                     </div>
                 </div>
             </div>
