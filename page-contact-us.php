@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main id="contact-us" class="contact-us">
-    
+
     <section id="section-1" class="section-1 mt-7">
 
         <div class="container">
@@ -44,8 +44,8 @@
                         </div>
 
                         <div class="d-flex justify-content-between">
-                            <div class="w-100 containerr" >
-                                <input type="checkbox" name="acknowledgement" id="ack-label">       
+                            <div class="w-100 containerr">
+                                <input type="checkbox" name="acknowledgement" id="ack-label">
                                 <label for="ack-label">You agree to our <a id="acknowledgement" href="">privacy policy</a>.</label>
                             </div>
                         </div>
@@ -59,10 +59,10 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 d-none d-lg-flex justify-content-end">
-                    <img src="<?= get_template_directory_uri() ?>/assets/images/contact-us.png" alt="Contact us" width="608" height="766">
+                    <img src="<?= get_template_directory_uri() ?>/assets/images/contactus22.webp" alt="Contact us" width="608" height="766">
                 </div>
             </div>
-        
+
         </div>
 
     </section>

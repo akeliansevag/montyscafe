@@ -1,7 +1,7 @@
 <?php
 $categories = get_terms([
     'taxonomy' => 'menu-item-category',
-    'hide_empty' => false
+    'hide_empty' => true
 ]);
 $category = null;
 if (isset(get_queried_object()->taxonomy)) {
@@ -59,7 +59,7 @@ $items = $query->posts;
                                 </li>
                                 <?php unset($items[$key]); ?>
                                 <?php
-                                    if (($key + 1) == $break) break;
+                                if (($key + 1) == $break) break;
                                 ?>
                             <?php endforeach; ?>
                         <?php endif; ?>
