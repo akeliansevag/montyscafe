@@ -29,7 +29,8 @@
       let scrollToSection = e.target.getAttribute("scrollTo");
       const y =
         document.getElementById(scrollToSection).getBoundingClientRect().top +
-        window.pageYOffset;
+        20;
+      window.pageYOffset;
       scroll({
         top: y,
         behavior: "smooth",
