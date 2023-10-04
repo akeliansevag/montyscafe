@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 d-none d-lg-flex justify-content-end">
-                    <img src="<?= get_template_directory_uri() ?>/assets/images/contactus22.webp" alt="Contact us" width="608" height="766">
+                    <img src="<?= get_template_directory_uri() ?>/assets/images/contactus3.webp" alt="Contact us" width="608" height="766">
                 </div>
             </div>
 
