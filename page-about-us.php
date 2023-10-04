@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main id="about-us" class="about-us">
-    <section class="section-1 mt-7 d-flex align-items-center">
+    <section class="section-1 mt-9 d-flex align-items-center">
         <img width="233px" class="position-absolute start-0" style="transform:rotate(180deg)" src="<?= get_template_directory_uri() ?>/assets/images/arc-right.svg" alt="">
         <div class="container">
             <div class="text-center">
@@ -29,13 +29,13 @@
         </div>
     </section>
 
-    <section class="section-2 mt-7">
+    <section class="section-2 mt-9">
         <div class="container">
             <img class="w-100" src="<?= get_template_directory_uri() ?>/assets/images/about-us-banner.jpg" alt="">
         </div>
     </section>
 
-    <section class="section-3 mt-7">
+    <section class="section-3 mt-9">
 
         <div class="container">
             <div class="row align-items-center flex-column-reverse flex-lg-row">
@@ -61,7 +61,7 @@
 
     </section>
 
-    <section class="section-4 mt-7">
+    <section class="section-4 mt-9">
         <div class="container">
             <div class="text-center">
                 <img class="w-100" src="<?= get_template_directory_uri() ?>/assets/images/chef2.png" alt="">
