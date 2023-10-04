@@ -1,7 +1,11 @@
 main {
   .home-section {
     &-1 {
+<<<<<<< HEAD
       height: calc(100dvh - var(--mc-header-height));
+=======
+      height: calc(100dvh - var(--mc-header-height) - 3rem);
+>>>>>>> main
 
       .scroll-hint-wrapper {
         position: absolute;
