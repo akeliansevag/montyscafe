@@ -57,7 +57,7 @@
 
             </div>
             <div class="container">
-                <h1 class="fs-1 primary-color animation fadeInUpDown opacity-0 test2">Where stories arRe told through food</h1>
+                <h1 class="fs-1 primary-color animation fadeInUpDown opacity-0 test2">Where stories are told through food</h1>
 
                 <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center mt-5">
                     <button class="button-secondary py-3 px-5 mx-2 my-2 my-sm-4 rounded-pill full">View all Menu</button>
