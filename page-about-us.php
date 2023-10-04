@@ -31,7 +31,7 @@
 
     <section class="section-2 mt-7">
         <div class="container">
-            <img src="<?= get_template_directory_uri() ?>/assets/images/about-us-banner.jpg" alt="">
+            <img class="w-100" src="<?= get_template_directory_uri() ?>/assets/images/about-us-banner.jpg" alt="">
         </div>
     </section>
 
@@ -64,7 +64,7 @@
     <section class="section-4 mt-7">
         <div class="container">
             <div class="text-center">
-                <img src="<?= get_template_directory_uri() ?>/assets/images/bigchef.jpg" alt="">
+                <img class="w-100" src="<?= get_template_directory_uri() ?>/assets/images/chef2.png" alt="">
                 <h2 class="primary-color mt-5  fs-6 fw-light">Meet the Chef - Chadi Nassif</h2>
                 <p class="white-color fs-20 mt-4 px-0 px-lg-9">Behind every mouthwatering dish is a team of passionate individuals dedicated to making your dining experience exceptional. From our talented chefs who bring creativity and expertise to every recipe, to our friendly servers who ensure your visit is nothing short of delightful, each member of our team plays a crucial role in your dining pleasure.</p>
 
