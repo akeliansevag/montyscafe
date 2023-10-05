@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<main id="homepage">
-    <section id="section-1" class="home-section-1 pt-5 movable-container">
+<main id="homepage" class="homepage">
+    <section id="section-1" class="section-1 pt-5 movable-container">
         <div class="d-flex justify-content-center align-items-center h-100 text-center">
             <div class="position-absolute w-100 pill">
                 <div class="">
@@ -68,7 +68,7 @@
         </div>
     </section>
 
-    <section id="section-2" class="home-section-2 mt-9">
+    <section id="section-2" class="section-2 mt-9">
         <div class="container">
             <div class="reserve-section primary-bg rounded-5 w-100 px-5 py-6 d-flex align-items-center justify-content-between">
                 <div class="row align-items-center justify-content-between">
@@ -109,14 +109,14 @@
 
     </section>
 
-    <section id="section-3" class="home-section-3 mt-9 overflow-x-hidden">
+    <section id="section-3" class="section-3 mt-9 overflow-x-hidden">
         <div class="container-lg container-fluid">
             <div class="row justify-content-between">
                 <div class="col-md-3 d-flex flex-column justify-content-between">
                     <div class="text-center text-lg-start">
                         <h2 class="primary-color fs-3">Discover our indulging selection</h2>
                     </div>
-                    <div style="height:30vh;" class="d-none d-md-flex align-items-center mt-6">
+                    <div style="height:300px;" class="d-none d-md-flex align-items-center mt-6">
                         <svg style="position:absolute; top:0; right:0; height:100%; transform:rotate(180deg)" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
                                 <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)" />
@@ -150,44 +150,45 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div style="width:100%" class="d-flex align-items-center">
-                        <svg class="d-none d-md-block" style="position:absolute; top:0px; left:50%; width:80%; transform:translateX(-50%)" viewBox="0 0 571 614" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_486_12389)">
-                                <rect x="0.5" y="0.5" width="570" height="844" rx="285" stroke="url(#paint0_linear_486_12389)" />
-                                <rect x="60.5" y="60.5" width="450" height="784" rx="225" stroke="url(#paint1_linear_486_12389)" />
+                <div class="col-md-5">
+                    <div style="width:100%; height:100%" class="d-flex align-items-center">
+                        <svg width="571" height="614" viewBox="0 0 571 614" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-none d-md-block" style="z-index:2;position:absolute; top:0px; left:50%; width:101%; transform:translateX(-50%)">
+                            <g clip-path="url(#clip0_570_6587)">
+                                <path d="M1 338L0 2H571V319H548.5C541.667 227.333 478.6 42.8 281 38C83.4 33.2 11.3333 236 1 338Z" fill="#344647" stroke="#344647"/>
+                                <mask id="path-2-inside-1_570_6587" fill="white">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M285.5 0C127.823 0 0 127.823 0 285.5V559.5C0 717.177 127.823 845 285.5 845C443.177 845 571 717.177 571 559.5V285.5C571 127.823 443.177 0 285.5 0ZM285.5 845C160.96 845 60 744.04 60 619.5V285.5C60 160.96 160.96 60 285.5 60C410.04 60 511 160.96 511 285.5V619.5C511 744.04 410.04 845 285.5 845Z"/>
+                                </mask>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M285.5 0C127.823 0 0 127.823 0 285.5V559.5C0 717.177 127.823 845 285.5 845C443.177 845 571 717.177 571 559.5V285.5C571 127.823 443.177 0 285.5 0ZM285.5 845C160.96 845 60 744.04 60 619.5V285.5C60 160.96 160.96 60 285.5 60C410.04 60 511 160.96 511 285.5V619.5C511 744.04 410.04 845 285.5 845Z" fill="#344647"/>
+                                <path d="M1 285.5C1 128.375 128.375 1 285.5 1V-1C127.27 -1 -1 127.27 -1 285.5H1ZM1 559.5V285.5H-1V559.5H1ZM285.5 844C128.375 844 1 716.625 1 559.5H-1C-1 717.73 127.27 846 285.5 846V844ZM570 559.5C570 716.625 442.625 844 285.5 844V846C443.73 846 572 717.73 572 559.5H570ZM570 285.5V559.5H572V285.5H570ZM285.5 1C442.625 1 570 128.375 570 285.5H572C572 127.27 443.73 -1 285.5 -1V1ZM285.5 844C161.512 844 61 743.488 61 619.5H59C59 744.593 160.408 846 285.5 846V844ZM61 619.5V285.5H59V619.5H61ZM61 285.5C61 161.512 161.512 61 285.5 61V59C160.408 59 59 160.407 59 285.5H61ZM285.5 61C409.488 61 510 161.512 510 285.5H512C512 160.408 410.593 59 285.5 59V61ZM510 285.5V619.5H512V285.5H510ZM510 619.5C510 743.488 409.488 844 285.5 844V846C410.593 846 512 744.593 512 619.5H510Z" fill="url(#paint0_linear_570_6587)" mask="url(#path-2-inside-1_570_6587)"/>
                             </g>
                             <defs>
-                                <linearGradient id="paint0_linear_486_12389" x1="285.5" y1="0" x2="285.5" y2="650.5" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#F2DBC4" />
-                                    <stop offset="1" stop-color="#344647" />
+                                <linearGradient id="paint0_linear_570_6587" x1="285.5" y1="0" x2="285.5" y2="650.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F2DBC4"/>
+                                    <stop offset="1" stop-color="#344647"/>
                                 </linearGradient>
-                                <linearGradient id="paint1_linear_486_12389" x1="285.5" y1="60" x2="285.5" y2="569.5" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#F2DBC4" />
-                                    <stop offset="1" stop-color="#344647" />
-                                </linearGradient>
-                                <clipPath id="clip0_486_12389">
-                                    <rect width="571" height="614" fill="white" />
+                                <clipPath id="clip0_570_6587">
+                                    <rect width="571" height="614" fill="white"/>
                                 </clipPath>
                             </defs>
                         </svg>
+                        
                         <div class="swiper swiper-main text-center overflow-x-hidden">
                             <div class="swiper-wrapper align-items-center">
-                                <div data-dish-name="THE BEEFs" data-dish-price="153" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div data-dish-name="THE BEEssdF" data-dish-price="143" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div data-dish-name="THE ewrBEEF" data-dish-price="103" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div data-dish-name="THE BdsfEEF" data-dish-price="193" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div data-dish-name="THE BEfdgEF" data-dish-price="183" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div data-dish-name="THE BEghrEF" data-dish-price="173" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div data-dish-name="THE BfhjEEF" data-dish-price="163" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div data-dish-name="THE BEhgjEF" data-dish-price="153" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div data-dish-name="THE BEsdfEF" data-dish-price="313" class="swiper-slide d-flex justify-content-center align-items-center mt-4 mt-md-7"><img class="w-50" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div data-dish-name="THE BEEFs" data-dish-price="153" class="swiper-slide d-flex justify-content-center align-items-center py-5"><img class="w-60" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div data-dish-name="THE BEEssdF" data-dish-price="143" class="swiper-slide d-flex justify-content-center align-items-center py-5"><img class="w-60" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div data-dish-name="THE ewrBEEF" data-dish-price="103" class="swiper-slide d-flex justify-content-center align-items-center py-5"><img class="w-60" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div data-dish-name="THE BdsfEEF" data-dish-price="193" class="swiper-slide d-flex justify-content-center align-items-center py-5"><img class="w-60" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div data-dish-name="THE BEfdgEF" data-dish-price="183" class="swiper-slide d-flex justify-content-center align-items-center py-5"><img class="w-60" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div data-dish-name="THE BEghrEF" data-dish-price="173" class="swiper-slide d-flex justify-content-center align-items-center py-5"><img class="w-60" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div data-dish-name="THE BfhjEEF" data-dish-price="163" class="swiper-slide d-flex justify-content-center align-items-center py-5"><img class="w-60" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div data-dish-name="THE BEhgjEF" data-dish-price="153" class="swiper-slide d-flex justify-content-center align-items-center py-5"><img class="w-60" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div data-dish-name="THE BEsdfEF" data-dish-price="313" class="swiper-slide d-flex justify-content-center align-items-center py-5"><img class="w-60" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 d-flex flex-column justify-content-between order-">
-                    <div style="height:30vh;" class="d-md-flex d-none align-items-center">
+                    <div style="height:300px;" class="d-md-flex d-none align-items-center">
                         <svg style="position:absolute; top:0; left:0; height:100%" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
                                 <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)" />
@@ -240,13 +241,11 @@
                     <a class="m-auto d-inline-block text-center button-secondary py-3 px-5  my-2 my-sm-4 rounded-pill" href="<?= home_url() ?>/menu/a-great-start/">View all Menu</a>
                 </div>
             </div>
-
-
         </div>
 
     </section>
 
-    <section id="section-4" class="home-section-4 mt-9 d-flex align-items-center justify-content-center">
+    <section id="section-4" class="section-4 mt-9 d-flex align-items-center justify-content-center">
         <div class="position-absolute w-100 pill top-0 d-none d-md-block">
             <div class="">
                 <svg class="w-100 arches h-100" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -310,7 +309,7 @@
         </div>
     </section>
 
-    <section id="section-5" class="home-section-5 mt-9 d-flex align-items-center">
+    <section id="section-5" class="section-5 mt-9 d-flex align-items-center">
         <div class="container">
             <div class="review-item">
                 <div class="row">

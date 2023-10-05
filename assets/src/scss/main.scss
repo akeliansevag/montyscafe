@@ -1,126 +1,65 @@
 main {
-  .home-section {
-    &-1 {
-      height: calc(100dvh - var(--mc-header-height));
-      transition: transform 0.25s ease-in-out, height 0.25s ease-in-out;
+  &.homepage {
+    .section {
+      &-1 {
+        height: calc(100dvh - var(--mc-header-height));
+        transition: transform 0.25s ease-in-out, height 0.25s ease-in-out;
 
-      .scroll-hint-wrapper {
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 20px;
-        height: 32px;
-        border-radius: 50px;
-        border: 2px solid #ffffff;
-        background-color: transparent;
-        cursor: pointer;
-        z-index: 1;
-
-        .scroll-dot {
+        .scroll-hint-wrapper {
           position: absolute;
-          top: 4px;
+          bottom: 20px;
           left: 50%;
-          transform: translate(-50%);
-          width: 3px;
-          height: 3px;
-          background-color: white;
+          transform: translateX(-50%);
+          width: 20px;
+          height: 32px;
           border-radius: 50px;
-          animation: scrollHint 1s ease-in-out 0.5s infinite alternate;
+          border: 2px solid #ffffff;
+          background-color: transparent;
+          cursor: pointer;
+          z-index: 1;
+
+          .scroll-dot {
+            position: absolute;
+            top: 4px;
+            left: 50%;
+            transform: translate(-50%);
+            width: 3px;
+            height: 3px;
+            background-color: white;
+            border-radius: 50px;
+            animation: scrollHint 1s ease-in-out 0.5s infinite alternate;
+          }
         }
       }
-    }
-    &-2 {
-      .reserve-play-container {
-        bottom: -8px;
-        left: -16px;
-      }
-    }
-  }
 
-  .full-height {
-    height: 100vh;
-    @media (max-width: 992px) {
-      height: auto;
-    }
-  }
-  .swiper-info-container {
-    transition: opacity 0.2s ease-in;
-  }
-  &.contact-us,
-  &.private-events {
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    input[type="date"],
-    textarea {
-      border-radius: 8px;
-      border: 1px solid #5d6b6c;
-      color: $mc-white-color;
-      background-color: transparent;
-
-      &:focus {
-        outline: none;
+      &-2 {
+        .reserve-play-container {
+          bottom: -8px;
+          left: -16px;
+        }
       }
 
-      &:-webkit-autofill {
-        -webkit-box-shadow: 0 0 0 30px $mc-tertiary-color inset !important; /* Adjust the color and other styles */
-        color: white !important;
-        -webkit-text-fill-color: white !important;
+      &-3 {
+        .swiper-info-container {
+          transition: opacity 0.25s ease-in;
+        }
+        .swiper-main {
+          img {
+            border-radius: 50%;
+            -webkit-box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.5);
+            box-shadow: 5px 5px 20px 4px rgba(0, 0, 0, 0.5);
+          }
+        }
       }
-    }
 
-    textarea {
-      resize: none;
-      height: 110px;
-    }
-
-    input[type="date"]::-webkit-calendar-picker-indicator {
-      filter: invert(1);
-    }
-
-    input[type="date"]::-webkit-input-placeholder {
-      color: transparent !important;
-    }
-
-    a#acknowledgement {
-      color: #aeb5b5;
-      text-decoration: underline;
-    }
-
-    input[type="checkbox"] {
-      display: none;
-    }
-
-    input[type="checkbox"] + label {
-      padding-left: 32px;
-      cursor: pointer;
-
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 20px;
-        height: 20px;
-        border: 1px solid #5d6b6c;
-        background-color: transparent;
-        border-radius: 6px;
-        margin-top: 2px;
+      &-5 {
+        .color-animated {
+          span {
+            opacity: 0.3;
+            transition: opacity 0.25s ease-out;
+          }
+        }
       }
-    }
-
-    input[type="checkbox"]:checked + label:before {
-      content: "\2714";
-      font-size: 12px;
-      color: #fff;
-      text-align: center;
-      margin-top: 1px;
-    }
-
-    img {
-      aspect-ratio: 8/10;
-      object-fit: cover;
     }
   }
 
@@ -139,14 +78,6 @@ main {
     .svgs {
       img {
         max-width: 60px;
-      }
-    }
-  }
-  #section-5 {
-    .color-animated {
-      span {
-        opacity: 0.3;
-        transition: opacity 0.2s ease-out;
       }
     }
   }

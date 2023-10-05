@@ -11,6 +11,8 @@
 	<link rel="icon" href="<?= get_template_directory_uri() ?>/assets/images/favicon-32x32.svg" sizes="32x32" type="image/svg" />
 	<link rel="icon" href="<?= get_template_directory_uri() ?>/assets/images/favicon-16x16.svg" sizes="16x16" type="image/svg" />
 
+	<meta name="theme-color" content="#344647" />
+
 	<meta name="author" content="MontysCafe">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
@@ -34,8 +36,6 @@
 	<meta name="twitter:image:alt" content="MontysCafe" />
 	<meta name="twitter:site" content="MontysCafe" />
 	<meta name="twitter:card" content="summary_large_image" />
-
-	<meta name="theme-color" content="#344647" />
 
 	<link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/build/css/app.css">
 	<script type="module" src="<?= get_template_directory_uri() ?>/assets/build/js/app.js"></script>

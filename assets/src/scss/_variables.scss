@@ -49,6 +49,18 @@ $spacers: (
 $border-radius-xxl: 1.875rem;
 
 $utilities: (
+  "width": (
+    property: width,
+    class: "w",
+    values: (
+      25: 25%,
+      50: 50%,
+      60: 60%,
+      75: 75%,
+      100: 100%,
+      auto: auto,
+    ),
+  ),
   "viewport-height": (
     property: height,
     class: vh,

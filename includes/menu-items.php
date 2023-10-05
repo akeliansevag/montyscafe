@@ -32,11 +32,9 @@ $items = $query->posts;
                     <div class="menu-item-categories">
                         <ul>
                             <?php if ($categories) : ?>
-
                                 <?php foreach ($categories as $key => $cat) : ?>
                                     <li><a class="white-color d-block px-2 py-2 mb-2 rounded-3 <?= $category && $category->term_id == $cat->term_id ? "active" : ""; ?>" href="<?= get_term_link($cat->term_id); ?>"><?= $cat->name ?></a></li>
                                 <?php endforeach; ?>
-
                             <?php endif; ?>
                         </ul>
                     </div>
