@@ -44,6 +44,20 @@ const mouseMoveHandler2 = (e) => {
 
 const tHandler = throttled(200, mouseMoveHandler2);
 
+function onScroll() {
+  var trext = document.querySelector(".trext");
+  var trextRect = trext.getBoundingClientRect();
+
+  // Calculate the progress based on the position of the top of the element
+  var progress =
+    ((window.innerHeight - trextRect.top) / trextRect.height) * 100;
+
+  // Ensure progress is between 0 and 100
+  progress = Math.max(0, Math.min(progress, 100));
+
+  document.getElementById("text").style.width = progress + "%";
+}
+
 (function () {
   // FANCYBOX
   Fancybox.bind("[data-fancybox]", {});
@@ -129,4 +143,27 @@ const tHandler = throttled(200, mouseMoveHandler2);
   movableElementsWrapper.forEach(function (elem) {
     elem.onmousemove = tHandler;
   });
+
+  const options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0,
+  };
+
+  if (!!window.IntersectionObserver) {
+    let observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          onScroll();
+        }
+      });
+    }, options);
+
+    document.querySelectorAll(".trext").forEach((el) => {
+      observer.observe(el);
+    });
+
+    // Listen to the scroll event for more accurate tracking
+    window.addEventListener("scroll", onScroll);
+  }
 })();

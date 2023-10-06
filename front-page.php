@@ -238,9 +238,9 @@
                 </div>
             </div>
         </div>
-
     </section>
 
+    
     <section id="section-4" class="section-4 mt-9 d-flex align-items-center justify-content-center">
         <div class="position-absolute w-100 pill top-0 d-none d-md-block">
             <div class="">
@@ -318,7 +318,21 @@
                         </div>
                     </div>
                     <div class="col-lg-9">
-                        <h4 class="color-animated fs-2 primary-color mt-0 mt-lg-n3"><span>Amazing experience and exquisite food that</span> <span> transports you through </span> <span>unique flavors and combinations.</span></h4>
+                        <div class="trext vh-100" style="font-size:60px;">
+                            <div>
+                                <div id="text">
+                                    <div>Lorem ipsum dolor, sit amet consectetur adip</div>
+                                    <div>Lorem ipsum dolor, sit amet consectetur adip</div>
+                                </div> 
+                            </div>
+                            <div class="text2">
+                                <div id="text1" style="">
+                                    <div>Lorem ipsum dolor, sit amet consectetur adip</div>
+                                    <div>Lorem ipsum dolor, sit amet consectetur adip</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <h4 class="color-animated fs-2 primary-color mt-0 mt-lg-n3"><span>Amazing experience and exquisite food that</span> <span> transports you through </span> <span>unique flavors and combinations.</span></h4> -->
                     </div>
                 </div>
             </div>
