@@ -70,10 +70,10 @@
 
     <section id="section-2" class="section-2 mt-9">
         <div class="container">
-            <div class="reserve-section primary-bg rounded-5 w-100 px-5 py-6 d-flex align-items-center justify-content-between">
+            <div class="reserve-section primary-bg rounded-5 w-100 px-5 py-6 px-2k-8 py-2k-9">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-4">
-                        <img class="d-none d-lg-block" src="<?= get_template_directory_uri() ?>/assets/images/reserve3.png" alt="">
+                        <img class="d-none d-lg-block w-100" src="<?= get_template_directory_uri() ?>/assets/images/reserve3.png" alt="">
                     </div>
 
                     <div class="col-lg-4">
@@ -85,20 +85,16 @@
 
                     <div class="col-lg-4 text-center">
                         <div class="reserve-video position-relative d-block d-lg-flex justify-content-end mt-4 mt-lg-0">
-                            <div class="d-inline-block">
-                                <img src="<?= get_template_directory_uri() ?>/assets/images/reserve-video-image.png?v=1" alt="">
-                                <div class="position-absolute reserve-play-container">
-                                    <a data-fancybox href="<?= get_template_directory_uri() ?>/assets/videos/our-story.mp4" class="d-flex align-items-center hover-effect">
-                                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="30" cy="30" r="30" fill="white" />
-                                            <path d="M39.0825 31.8953C40.3224 30.9359 40.3224 29.0642 39.0825 28.1048C35.3357 25.2055 31.1517 22.9204 26.6872 21.3348L25.8717 21.0451C24.3113 20.4909 22.6632 21.5466 22.4519 23.1573C21.8617 27.6575 21.8617 32.3425 22.4519 36.8428C22.6632 38.4535 24.3113 39.5092 25.8716 38.955L26.6872 38.6653C31.1517 37.0798 35.3357 34.7945 39.0825 31.8953Z" fill="black" />
-                                        </svg>
-                                        <span class="px-2 text-white">Watch our story</span>
-                                    </a>
-
-                                </div>
+                            <img class="w-100" src="<?= get_template_directory_uri() ?>/assets/images/reserve-video-image.png?v=1" alt="">
+                            <div class="position-absolute reserve-play-container">
+                                <a data-fancybox href="<?= get_template_directory_uri() ?>/assets/videos/our-story.mp4" class="d-flex align-items-center hover-effect">
+                                    <svg width="130" height="130" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="30" cy="30" r="30" fill="white" />
+                                        <path d="M39.0825 31.8953C40.3224 30.9359 40.3224 29.0642 39.0825 28.1048C35.3357 25.2055 31.1517 22.9204 26.6872 21.3348L25.8717 21.0451C24.3113 20.4909 22.6632 21.5466 22.4519 23.1573C21.8617 27.6575 21.8617 32.3425 22.4519 36.8428C22.6632 38.4535 24.3113 39.5092 25.8716 38.955L26.6872 38.6653C31.1517 37.0798 35.3357 34.7945 39.0825 31.8953Z" fill="black" />
+                                    </svg>
+                                    <span class="px-2 text-white">Watch our story</span>
+                                </a>
                             </div>
-
                         </div>
                     </div>
 
@@ -109,14 +105,14 @@
 
     </section>
 
-    <section id="section-3" class="section-3 mt-9 overflow-x-hidden">
-        <div class="container-lg container-fluid">
-            <div class="row justify-content-between">
-                <div class="col-md-3 d-flex flex-column justify-content-between">
+    <section id="section-3" class="section-3 mt-9">
+        <div class="container">
+            <div class="row justify-content-between vh-60">
+                <div class="col-md-3 col-fhd-3 d-flex flex-column justify-content-between">
                     <div class="text-center text-lg-start">
                         <h2 class="primary-color fs-3">Discover our indulging selection</h2>
                     </div>
-                    <div style="height:300px;" class="d-none d-md-flex align-items-center mt-6">
+                    <div style="height:30vh;" class="d-none d-md-flex align-items-center mt-6">
                         <svg style="position:absolute; top:0; right:0; height:100%; transform:rotate(180deg)" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
                                 <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)" />
@@ -135,24 +131,24 @@
                                 </linearGradient>
                             </defs>
                         </svg>
-                        <div class="swiper swiper-prev swiper-v me-auto overflow-x-hidden pe-4 px-lg-5" style="height:100%;border-top-right-radius: 1000px; border-bottom-right-radius: 1000px;">
+                        <div class="swiper swiper-prev swiper-v me-auto overflow-x-hidden pe-4 px-lg-5" style="width:100%; height:100%;border-top-right-radius: 1000px; border-bottom-right-radius: 1000px;">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                            </div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                            </div> 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 col-xl-4 col-fhd-4">
                     <div style="width:100%; height:100%" class="d-flex align-items-center">
-                        <svg width="571" height="614" viewBox="0 0 571 614" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-none d-md-block" style="z-index:2;position:absolute; top:0px; left:50%; width:101%; transform:translateX(-50%)">
+                        <svg viewBox="0 0 571 614" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-none d-md-block" style="z-index:2;position:absolute; top:0px; left:50%; width:101%;height:100%; transform:translateX(-50%)">
                             <g clip-path="url(#clip0_570_6587)">
                                 <path d="M1 338L0 2H571V319H548.5C541.667 227.333 478.6 42.8 281 38C83.4 33.2 11.3333 236 1 338Z" fill="#344647" stroke="#344647"/>
                                 <mask id="path-2-inside-1_570_6587" fill="white">
@@ -187,8 +183,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 d-flex flex-column justify-content-between order-">
-                    <div style="height:300px;" class="d-md-flex d-none align-items-center">
+                <div class="col-md-3 col-fhd-3 d-flex flex-column justify-content-between order-">
+                    <div style="height:30vh;" class="d-md-flex d-none align-items-center">
                         <svg style="position:absolute; top:0; left:0; height:100%" viewBox="0 0 363 334" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_464_12384" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" style="height:100%">
                                 <rect x="0.5" y="0.5" width="333" height="493" rx="166.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 2.18557e-08 3.04957e-05)" stroke="url(#paint0_linear_464_12384)" />
@@ -210,15 +206,15 @@
 
                         <div class="swiper swiper-next swiper-v ms-auto overflow-x-hidden ps-4 px-lg-5" style="width:100%;height:100%;border-top-left-radius: 1000px; border-bottom-left-radius: 1000px;">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
-                                <div class="swiper-slide d-flex align-items-center"><img src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
+                                <div class="swiper-slide d-flex align-items-center"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -228,8 +224,8 @@
 
                 </div>
             </div>
-            <div>
-                <div class="swiper-info-container text-center mt-3 mt-md-0">
+            <div class="z-2 mt-md-8 mt-xl-6">
+                <div class="swiper-info-container text-center mt-3">
                     <h3 class="dish-name white-color fs-4">THE BEEF CORDON CRUNCH</h3>
                     <h4 class="dish-price primary-color fs-6 fw-normal">$<span>11.00</span></h4>
                 </div>
@@ -283,13 +279,12 @@
                     </defs>
                 </svg>
             </div>
-
         </div>
 
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <img src=" <?= get_template_directory_uri() ?>/assets/images/locate-us.jpg" alt="">
+                    <img class="w-100" src=" <?= get_template_directory_uri() ?>/assets/images/locate-us.jpg" alt="">
                     <div class="primary-color mt-3 fs-5">
                         <p>Hamra, Lebanon, <br>Gefinor Buildings, Bloc A, GF</p>
                     </div>
@@ -315,7 +310,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="reviewer d-flex align-items-center">
-                            <img width="80" class="rounded-circle me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.webp" alt="Reviewer picture">
+                            <img width="150" class="rounded-circle me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.webp" alt="Reviewer picture">
                             <div>
                                 <h6 class="white-color fs-7">James Bond</h6>
                                 <h6 class="primary-color">Founder & Chairman</h6>
@@ -331,7 +326,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="reviewer d-flex align-items-center">
-                            <img width="80" class="rounded-circle me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer2.webp" alt="Reviewer picture">
+                            <img width="150" class="rounded-circle me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer2.webp" alt="Reviewer picture">
                             <div>
                                 <h6 class="white-color fs-7">Leonardo DiCaprio</h6>
                                 <h6 class="primary-color">Founder & Chairman</h6>

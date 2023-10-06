@@ -41,12 +41,36 @@ $spacers: (
   5: $spacer * 3,
   6: $spacer * 5,
   7: $spacer * 7,
+  8: $spacer * 8,
   9: $spacer * 9,
   10: $spacer * 10,
   16: $spacer * 16,
 );
 
 $border-radius-xxl: 1.875rem;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  fhd: 1920px,
+  2k: 2560px,
+  uhd: 3840px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+  fhd: 1600px,
+  2k: 2100px,
+  uhd: 3300px,
+);
 
 $utilities: (
   "width": (
@@ -65,6 +89,7 @@ $utilities: (
     property: height,
     class: vh,
     values: (
+      50: 50vh,
       60: 60vh,
       75: 75vh,
       100: 100vh,

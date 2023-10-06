@@ -157,7 +157,8 @@ img.movable-img {
 }
 
 .pill {
-  max-width: 900px;
+  // max-width: 900px;
+  max-width: 50%;
 
   img {
     background-color: $mc-tertiary-color;
