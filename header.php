@@ -37,8 +37,8 @@
 	<meta name="twitter:site" content="MontysCafe" />
 	<meta name="twitter:card" content="summary_large_image" />
 
-	<link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/build/css/app.css?v=1">
-	<script type="module" src="<?= get_template_directory_uri() ?>/assets/build/js/app.js?v=1"></script>
+	<link rel="stylesheet" href="<?= get_template_directory_uri() ?>/assets/build/css/app.css?v=2">
+	<script type="module" src="<?= get_template_directory_uri() ?>/assets/build/js/app.js?v=2"></script>
 
 	<?php wp_head(); ?>
 </head>

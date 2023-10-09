@@ -300,7 +300,7 @@ const tHandler = throttled(200, mouseMoveHandler2);
   });
 
   ScrollTrigger.create({
-    trigger: "#text1",
+    trigger: "#section-5",
     start: "top bottom-=10%",
     end: "bottom top+=40%",
     scrub: true,

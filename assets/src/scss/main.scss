@@ -53,8 +53,10 @@ main {
       }
 
       &-5 {
-        #text1{
-          > div{
+          .ttext{
+            font-size:3.5vw;
+          }
+           .text-element-container{
             display: inline-block;
           }
           .text-element {
@@ -82,7 +84,6 @@ main {
           span{
             opacity: 0.24;
           }
-        }
         
          
         .color-animated {

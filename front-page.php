@@ -303,7 +303,7 @@
 
     <section id="section-5" class="section-5 mt-9 d-flex align-items-center">
         <div class="container">
-            <div class="review-item">
+            <div class="review-item py-5">
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="reviewer d-flex align-items-center">
@@ -315,30 +315,79 @@
                         </div>
                     </div>
                     <div class="col-lg-9">
-                        <div class="trext" style="font-size:60px;">
+                        <div class="ttext">
 
                             <div class="text2">
-                                <div id="text1">
-                                    <div>
+                                <div id="">
+                                    <div class="text-element-container">
                                         <div class="text-element">Lorem ipsum dolor</div>
                                         <span>Lorem ipsum dolor</span>
                                     </div>
                                     <br>
-                                    <div>
+                                    <div class="text-element-container">
                                         <div class="text-element">
                                             sit amet consectetur adip
                                         </div>
                                         <span>sit amet consectetur adip</span>
                                     </div>
                                     <br>
-                                    <div>
+                                    <div class="text-element-container">
                                         <div class="text-element">
                                             sit amet consectetur
                                         </div>
                                         <span>sit amet consectetur</span>
                                     </div>
                                     <br>
-                                    <div>
+                                    <div class="text-element-container">
+                                        <div class="text-element">
+                                            sit amet adip
+                                        </div>
+                                        <span>sit amet adip</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <h4 class="color-animated fs-2 primary-color mt-0 mt-lg-n3"><span>Amazing experience and exquisite food that</span> <span> transports you through </span> <span>unique flavors and combinations.</span></h4> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-item py-5">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="reviewer d-flex align-items-center">
+                            <img width="150" class="rounded-circle me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer2.webp" alt="Reviewer picture">
+                            <div>
+                                <h6 class="white-color fs-7">Leonardo DiCaprio</h6>
+                                <h6 class="primary-color">Founder & Chairman</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="ttext">
+
+                            <div class="text2">
+                                <div id="">
+                                    <div class="text-element-container">
+                                        <div class="text-element">Lorem ipsum dolor</div>
+                                        <span>Lorem ipsum dolor</span>
+                                    </div>
+                                    <br>
+                                    <div class="text-element-container">
+                                        <div class="text-element">
+                                            sit amet consectetur adip
+                                        </div>
+                                        <span>sit amet consectetur adip</span>
+                                    </div>
+                                    <br>
+                                    <div class="text-element-container">
+                                        <div class="text-element">
+                                            sit amet consectetur
+                                        </div>
+                                        <span>sit amet consectetur</span>
+                                    </div>
+                                    <br>
+                                    <div class="text-element-container">
                                         <div class="text-element">
                                             sit amet adip
                                         </div>
