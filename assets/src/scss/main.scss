@@ -54,12 +54,11 @@ main {
 
       &-5 {
         #text {
-          width: 0%;
-          overflow: hidden;
-          -webkit-transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
-          transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
-
           div {
+            width: 0%;
+            overflow: hidden;
+            -webkit-transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+            transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
             will-change: width, height;
             white-space: nowrap;
             background-image: -webkit-gradient(

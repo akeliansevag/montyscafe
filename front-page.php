@@ -97,12 +97,9 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
-
     </section>
 
     <section id="section-3" class="section-3 mt-9">
@@ -321,14 +318,18 @@
                         <div class="trext vh-100" style="font-size:60px;">
                             <div>
                                 <div id="text">
-                                    <div>Lorem ipsum dolor, sit amet consectetur adip</div>
-                                    <div>Lorem ipsum dolor, sit amet consectetur adip</div>
+                                    <div class="dr d1">Lorem ipsum dolor</div>
+                                    <div class="dr d2">sit amet consectetur adip</div>
+                                    <div class="dr d3">sit amet consectetur</div>
+                                    <div class="dr d4">sit amet adip</div>
                                 </div> 
                             </div>
                             <div class="text2">
                                 <div id="text1" style="">
-                                    <div>Lorem ipsum dolor, sit amet consectetur adip</div>
-                                    <div>Lorem ipsum dolor, sit amet consectetur adip</div>
+                                    <div>Lorem ipsum dolor</div>
+                                    <div>sit amet consectetur adip</div>
+                                    <div>sit amet consectetur</div>
+                                    <div>sit amet adip</div>
                                 </div>
                             </div>
                         </div>
