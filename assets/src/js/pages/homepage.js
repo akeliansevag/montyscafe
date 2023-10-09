@@ -102,24 +102,24 @@ const tHandler = throttled(200, mouseMoveHandler2);
 
   // GSAP
   gsap.registerPlugin(ScrollTrigger);
-  const elements = document.querySelectorAll(".color-animated span");
+  // const elements = document.querySelectorAll(".color-animated span");
 
-  var anim = gsap.timeline({
-    duration: 0.5,
-  });
+  // var anim = gsap.timeline({
+  //   duration: 0.5,
+  // });
 
-  elements.forEach(function (element) {
-    anim.to(element, { opacity: 1 });
-    anim.to(element, { opacity: 0.3 }, ">4");
-  });
+  // elements.forEach(function (element) {
+  //   anim.to(element, { opacity: 1 });
+  //   anim.to(element, { opacity: 0.3 }, ">4");
+  // });
 
-  ScrollTrigger.create({
-    trigger: "#section-5",
-    start: "top bottom-=20%",
-    end: "center",
-    scrub: true,
-    animation: anim,
-  });
+  // ScrollTrigger.create({
+  //   trigger: "#section-5",
+  //   start: "top bottom-=20%",
+  //   end: "center",
+  //   scrub: true,
+  //   animation: anim,
+  // });
 
   const movableElementsWrapper =
     document.querySelectorAll(".movable-container");
@@ -225,69 +225,88 @@ const tHandler = throttled(200, mouseMoveHandler2);
   //   window.addEventListener("scroll", onScroll);
   // }
 
-  const options = {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0,
-  };
+  // const options = {
+  //   root: null,
+  //   rootMargin: "0px",
+  //   threshold: 0,
+  // };
 
-  let currentIndex = 0;
-  let scrollDownProgress = 0;
-  let scrollUpProgress = 0;
+  // let currentIndex = 0;
+  // let scrollDownProgress = 0;
+  // let scrollUpProgress = 0;
 
-  function onScroll() {
-    var trext = document.querySelector(".trext");
-    var trextRect = trext.getBoundingClientRect();
+  // function onScroll() {
+  //   var trext = document.querySelector(".trext");
+  //   var trextRect = trext.getBoundingClientRect();
 
-    var progress =
-      ((window.innerHeight - trextRect.top) / trextRect.height) * 100;
-    progress = Math.max(0, Math.min(progress, 100));
+  //   var progress =
+  //     ((window.innerHeight - trextRect.top) / trextRect.height) * 100;
+  //   progress = Math.max(0, Math.min(progress, 100));
 
-    const elements = document.querySelectorAll(".dr");
+  //   const elements = document.querySelectorAll(".dr");
 
-    // Calculate the index based on the progress
-    const indexToUpdate = Math.floor((progress / 100) * elements.length);
+  //   // Calculate the index based on the progress
+  //   const indexToUpdate = Math.floor((progress / 100) * elements.length);
 
-    // Check if scrolling down
-    const isScrollingDown = progress > currentIndex * (100 / elements.length);
+  //   // Check if scrolling down
+  //   const isScrollingDown = progress > currentIndex * (100 / elements.length);
 
-    // Update the progress values based on scrolling direction
-    if (isScrollingDown) {
-      scrollDownProgress = progress;
-    } else {
-      scrollUpProgress = progress;
-    }
+  //   // Update the progress values based on scrolling direction
+  //   if (isScrollingDown) {
+  //     scrollDownProgress = progress;
+  //   } else {
+  //     scrollUpProgress = progress;
+  //   }
 
-    // Update the width of the current element based on scrolling direction
-    if (elements[currentIndex]) {
-      if (isScrollingDown) {
-        elements[currentIndex].style.width = scrollDownProgress + "%";
-      } else {
-        elements[currentIndex].style.width = 100 - scrollUpProgress + "%";
-      }
-    }
+  //   // Update the width of the current element based on scrolling direction
+  //   if (elements[currentIndex]) {
+  //     if (isScrollingDown) {
+  //       elements[currentIndex].style.width = scrollDownProgress + "%";
+  //     } else {
+  //       elements[currentIndex].style.width = 100 - scrollUpProgress + "%";
+  //     }
+  //   }
 
-    // Check if the index has changed
-    if (indexToUpdate !== currentIndex && elements[currentIndex]) {
-      // Reset the width of the previous element to 100%
-      elements[currentIndex].style.width = "100%";
-      currentIndex = indexToUpdate;
-    }
-  }
+  //   // Check if the index has changed
+  //   if (indexToUpdate !== currentIndex && elements[currentIndex]) {
+  //     // Reset the width of the previous element to 100%
+  //     elements[currentIndex].style.width = "100%";
+  //     currentIndex = indexToUpdate;
+  //   }
+  // }
 
-  if (!!window.IntersectionObserver) {
-    let observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          onScroll();
-        }
-      });
-    }, options);
+  // if (!!window.IntersectionObserver) {
+  //   let observer = new IntersectionObserver((entries, observer) => {
+  //     entries.forEach((entry) => {
+  //       if (entry.isIntersecting) {
+  //         onScroll();
+  //       }
+  //     });
+  //   }, options);
 
-    document.querySelectorAll(".trext").forEach((el) => {
-      observer.observe(el);
-    });
+  //   document.querySelectorAll(".trext").forEach((el) => {
+  //     observer.observe(el);
+  //   });
 
-    window.addEventListener("scroll", onScroll);
-  }
+  //   window.addEventListener("scroll", onScroll);
+  // }
+
+  const textElements = document.querySelectorAll('.text-element');
+
+  var textAnim = gsap.timeline();
+
+  textElements.forEach(function (element) {
+    textAnim.to(element, { width: '100%' });
+  });
+
+  ScrollTrigger.create({
+    trigger: "#text1",
+    start: "top bottom-=10%",
+    end: "bottom top+=40%",
+    scrub: true,
+    animation: textAnim,
+  });
+
+
+
 })();

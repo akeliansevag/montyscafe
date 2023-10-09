@@ -139,7 +139,7 @@
                                 <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/1.png" alt=""></div>
                                 <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/3.png" alt=""></div>
                                 <div class="swiper-slide d-flex align-items-center justify-content-end"><img class="w-75" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -147,24 +147,24 @@
                     <div style="width:100%; height:100%" class="d-flex align-items-center">
                         <svg viewBox="0 0 571 614" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-none d-md-block" style="z-index:2;position:absolute; top:0px; left:50%; width:101%;height:100%; transform:translateX(-50%)">
                             <g clip-path="url(#clip0_570_6587)">
-                                <path d="M1 338L0 2H571V319H548.5C541.667 227.333 478.6 42.8 281 38C83.4 33.2 11.3333 236 1 338Z" fill="#344647" stroke="#344647"/>
+                                <path d="M1 338L0 2H571V319H548.5C541.667 227.333 478.6 42.8 281 38C83.4 33.2 11.3333 236 1 338Z" fill="#344647" stroke="#344647" />
                                 <mask id="path-2-inside-1_570_6587" fill="white">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M285.5 0C127.823 0 0 127.823 0 285.5V559.5C0 717.177 127.823 845 285.5 845C443.177 845 571 717.177 571 559.5V285.5C571 127.823 443.177 0 285.5 0ZM285.5 845C160.96 845 60 744.04 60 619.5V285.5C60 160.96 160.96 60 285.5 60C410.04 60 511 160.96 511 285.5V619.5C511 744.04 410.04 845 285.5 845Z"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M285.5 0C127.823 0 0 127.823 0 285.5V559.5C0 717.177 127.823 845 285.5 845C443.177 845 571 717.177 571 559.5V285.5C571 127.823 443.177 0 285.5 0ZM285.5 845C160.96 845 60 744.04 60 619.5V285.5C60 160.96 160.96 60 285.5 60C410.04 60 511 160.96 511 285.5V619.5C511 744.04 410.04 845 285.5 845Z" />
                                 </mask>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M285.5 0C127.823 0 0 127.823 0 285.5V559.5C0 717.177 127.823 845 285.5 845C443.177 845 571 717.177 571 559.5V285.5C571 127.823 443.177 0 285.5 0ZM285.5 845C160.96 845 60 744.04 60 619.5V285.5C60 160.96 160.96 60 285.5 60C410.04 60 511 160.96 511 285.5V619.5C511 744.04 410.04 845 285.5 845Z" fill="#344647"/>
-                                <path d="M1 285.5C1 128.375 128.375 1 285.5 1V-1C127.27 -1 -1 127.27 -1 285.5H1ZM1 559.5V285.5H-1V559.5H1ZM285.5 844C128.375 844 1 716.625 1 559.5H-1C-1 717.73 127.27 846 285.5 846V844ZM570 559.5C570 716.625 442.625 844 285.5 844V846C443.73 846 572 717.73 572 559.5H570ZM570 285.5V559.5H572V285.5H570ZM285.5 1C442.625 1 570 128.375 570 285.5H572C572 127.27 443.73 -1 285.5 -1V1ZM285.5 844C161.512 844 61 743.488 61 619.5H59C59 744.593 160.408 846 285.5 846V844ZM61 619.5V285.5H59V619.5H61ZM61 285.5C61 161.512 161.512 61 285.5 61V59C160.408 59 59 160.407 59 285.5H61ZM285.5 61C409.488 61 510 161.512 510 285.5H512C512 160.408 410.593 59 285.5 59V61ZM510 285.5V619.5H512V285.5H510ZM510 619.5C510 743.488 409.488 844 285.5 844V846C410.593 846 512 744.593 512 619.5H510Z" fill="url(#paint0_linear_570_6587)" mask="url(#path-2-inside-1_570_6587)"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M285.5 0C127.823 0 0 127.823 0 285.5V559.5C0 717.177 127.823 845 285.5 845C443.177 845 571 717.177 571 559.5V285.5C571 127.823 443.177 0 285.5 0ZM285.5 845C160.96 845 60 744.04 60 619.5V285.5C60 160.96 160.96 60 285.5 60C410.04 60 511 160.96 511 285.5V619.5C511 744.04 410.04 845 285.5 845Z" fill="#344647" />
+                                <path d="M1 285.5C1 128.375 128.375 1 285.5 1V-1C127.27 -1 -1 127.27 -1 285.5H1ZM1 559.5V285.5H-1V559.5H1ZM285.5 844C128.375 844 1 716.625 1 559.5H-1C-1 717.73 127.27 846 285.5 846V844ZM570 559.5C570 716.625 442.625 844 285.5 844V846C443.73 846 572 717.73 572 559.5H570ZM570 285.5V559.5H572V285.5H570ZM285.5 1C442.625 1 570 128.375 570 285.5H572C572 127.27 443.73 -1 285.5 -1V1ZM285.5 844C161.512 844 61 743.488 61 619.5H59C59 744.593 160.408 846 285.5 846V844ZM61 619.5V285.5H59V619.5H61ZM61 285.5C61 161.512 161.512 61 285.5 61V59C160.408 59 59 160.407 59 285.5H61ZM285.5 61C409.488 61 510 161.512 510 285.5H512C512 160.408 410.593 59 285.5 59V61ZM510 285.5V619.5H512V285.5H510ZM510 619.5C510 743.488 409.488 844 285.5 844V846C410.593 846 512 744.593 512 619.5H510Z" fill="url(#paint0_linear_570_6587)" mask="url(#path-2-inside-1_570_6587)" />
                             </g>
                             <defs>
                                 <linearGradient id="paint0_linear_570_6587" x1="285.5" y1="0" x2="285.5" y2="650.5" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#F2DBC4"/>
-                                    <stop offset="1" stop-color="#344647"/>
+                                    <stop stop-color="#F2DBC4" />
+                                    <stop offset="1" stop-color="#344647" />
                                 </linearGradient>
                                 <clipPath id="clip0_570_6587">
-                                    <rect width="571" height="614" fill="white"/>
+                                    <rect width="571" height="614" fill="white" />
                                 </clipPath>
                             </defs>
                         </svg>
-                        
+
                         <div class="swiper swiper-main text-center overflow-x-hidden">
                             <div class="swiper-wrapper align-items-center">
                                 <div data-dish-name="THE BEEFs" data-dish-price="153" class="swiper-slide d-flex justify-content-center align-items-center py-5"><img class="w-60" src="<?= get_template_directory_uri() ?>/assets/images/2.png" alt=""></div>
@@ -237,7 +237,7 @@
         </div>
     </section>
 
-    
+
     <section id="section-4" class="section-4 mt-9 d-flex align-items-center justify-content-center">
         <div class="position-absolute w-100 pill top-0 d-none d-md-block">
             <div class="">
@@ -315,21 +315,35 @@
                         </div>
                     </div>
                     <div class="col-lg-9">
-                        <div class="trext vh-100" style="font-size:60px;">
-                            <div>
-                                <div id="text">
-                                    <div class="dr d1">Lorem ipsum dolor</div>
-                                    <div class="dr d2">sit amet consectetur adip</div>
-                                    <div class="dr d3">sit amet consectetur</div>
-                                    <div class="dr d4">sit amet adip</div>
-                                </div> 
-                            </div>
+                        <div class="trext" style="font-size:60px;">
+
                             <div class="text2">
-                                <div id="text1" style="">
-                                    <div>Lorem ipsum dolor</div>
-                                    <div>sit amet consectetur adip</div>
-                                    <div>sit amet consectetur</div>
-                                    <div>sit amet adip</div>
+                                <div id="text1">
+                                    <div>
+                                        <div class="text-element">Lorem ipsum dolor</div>
+                                        <span>Lorem ipsum dolor</span>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <div class="text-element">
+                                            sit amet consectetur adip
+                                        </div>
+                                        <span>sit amet consectetur adip</span>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <div class="text-element">
+                                            sit amet consectetur
+                                        </div>
+                                        <span>sit amet consectetur</span>
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <div class="text-element">
+                                            sit amet adip
+                                        </div>
+                                        <span>sit amet adip</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -337,7 +351,7 @@
                     </div>
                 </div>
             </div>
-            <div class="review-item mt-5">
+            <!-- <div class="review-item mt-5">
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="reviewer d-flex align-items-center">
@@ -352,7 +366,7 @@
                         <h4 class="color-animated fs-2 primary-color mt-0 mt-lg-n3"><span>Amazing experience and exquisite</span> <span>food that transports you</span> <span>through its unique flavors and combinations.</span></h4>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 </main>
