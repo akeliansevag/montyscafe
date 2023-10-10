@@ -309,7 +309,7 @@
                         <div class="reviewer d-flex align-items-center">
                             <img width="150" class="rounded-circle me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.webp" alt="Reviewer picture">
                             <div>
-                                <h6 class="white-color fs-7">James Bond</h6>
+                                <h6 class="white-color fs-7">James Bondssssssss</h6>
                                 <h6 class="primary-color">Founder & Chairman</h6>
                             </div>
                         </div>
