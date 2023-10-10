@@ -18,4 +18,7 @@ switch (page[2]) {
   case "private-events":
     require("./pages/private-events");
     break;
+  case "menu":
+    require("./pages/menu");
+    break;
 }

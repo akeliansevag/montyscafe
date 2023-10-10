@@ -30,10 +30,10 @@ $items = $query->posts;
             <div class="row gx-5">
                 <div class="col-lg-3">
                     <div class="menu-item-categories">
-                        <ul>
+                        <ul id="menu-items-container" class="d-flex d-lg-block overflow-auto pb-2 mb-2 pb-lg-0 mb-lg-0">
                             <?php if ($categories) : ?>
                                 <?php foreach ($categories as $key => $cat) : ?>
-                                    <li><a class="white-color d-block px-2 py-2 mb-2 rounded-3 <?= $category && $category->term_id == $cat->term_id ? "active" : ""; ?>" href="<?= get_term_link($cat->term_id); ?>"><?= $cat->name ?></a></li>
+                                    <li class="flex-shrink-0 me-2 me-lg-0"><a class="white-color d-block px-2 py-2 mb-2 rounded-3 <?= $category && $category->term_id == $cat->term_id ? "active" : ""; ?>" href="<?= get_term_link($cat->term_id); ?>"><?= $cat->name ?></a></li>
                                 <?php endforeach; ?>
                             <?php endif; ?>
                         </ul>
