@@ -8,7 +8,7 @@
                     <img id="pill-1" data-value="-5" class="p-2 movable-img position-absolute burger" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger">
                     <img id="pill-2" data-value="3" class="p-2 movable-img position-absolute pizza" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza">
                     <div id="pill-chef" data-value="-1" class="movable-img position-absolute d-none d-lg-flex flex-column flex-lg-row justify-content-center align-items-center">
-                        <img class="w-auto p-2  rounded-circle " src="<?= get_template_directory_uri() ?>/assets/images/chef.png" alt="Chef" width="88" height="88">
+                        <img id="pill-3" class="w-auto p-2 rounded-circle " src="<?= get_template_directory_uri() ?>/assets/images/chef.png" alt="Chef" width="88" height="88">
                         <div class="d-none d-lg-flex flex-column text-start">
                             <h3 class="fs-8 white-color">Chadi Nassif</h3>
                             <p class="primary-color">Executive Chef</p>

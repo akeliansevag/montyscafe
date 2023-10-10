@@ -46,7 +46,7 @@
                         </div>
                         <img id="pill-1" data-value="8" class="p-2 movable-img position-absolute burger" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger">
                         <img id="pill-2" data-value="-8" class="p-2 movable-img position-absolute pizza" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza">
-                        <img id="pill-3" data-value="5" class="p-2 movable-img position-absolute hotdog" src="<?= get_template_directory_uri() ?>/assets/images/hotdog.svg" alt="Hotdog">
+                        <img id="pill-6" data-value="5" class="p-2 movable-img position-absolute hotdog" src="<?= get_template_directory_uri() ?>/assets/images/hotdog.svg" alt="Hotdog">
                         <img id="pill-4" data-value="-5" class="p-2 movable-img position-absolute pasta" src="<?= get_template_directory_uri() ?>/assets/images/pasta.svg" alt="Pasta">
                         <img id="pill-5" data-value="2" class="p-2 movable-img position-absolute juice" src="<?= get_template_directory_uri() ?>/assets/images/juice.svg" alt="juice">
 

@@ -291,22 +291,19 @@ const tHandler = throttled(200, mouseMoveHandler2);
   //   window.addEventListener("scroll", onScroll);
   // }
 
-  const textElements = document.querySelectorAll('.text-element');
+  const textElements = document.querySelectorAll(".text-element");
 
   var textAnim = gsap.timeline();
 
   textElements.forEach(function (element) {
-    textAnim.to(element, { width: '100%' });
+    textAnim.to(element, { width: "100%" });
   });
 
   ScrollTrigger.create({
     trigger: "#section-5",
-    start: "top bottom-=10%",
-    end: "bottom top+=40%",
+    start: "top+=20% bottom-=10%",
+    end: "bottom-=30% top+=40%",
     scrub: true,
     animation: textAnim,
   });
-
-
-
 })();

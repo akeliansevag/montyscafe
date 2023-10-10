@@ -158,11 +158,16 @@ img.movable-img {
 
 .pill {
   // max-width: 900px;
-  max-width: 50%;
+  @media (min-width: 576px) {
+    max-width: 50%;
+  }
 
   img {
     background-color: $mc-tertiary-color;
-    width: 10%;
+
+    &:not(#pill-3) {
+      width: 10%;
+    }
 
     &.burger {
       top: 12%;
@@ -186,8 +191,11 @@ img.movable-img {
     }
   }
   #pill-chef {
-    top: 3%;
+    width: 10%;
+    top: 12%;
     right: 0%;
+    background-color: $mc-tertiary-color;
+    white-space: nowrap;
   }
 }
 
