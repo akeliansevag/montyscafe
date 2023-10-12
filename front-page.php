@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main id="homepage" class="homepage">
-    <section id="section-1" class="section-1 pt-5 movable-container">
+    <section id="section-1" class="section-1 pt-7 movable-container">
         <div class="d-flex justify-content-center align-items-center h-100 text-center">
             <div class="position-absolute w-100 pill">
                 <div class="">
@@ -68,7 +68,7 @@
         </div>
     </section>
 
-    <section id="section-2" class="section-2 mt-9">
+    <section id="section-2" class="section-2 mt-7 mt-lg-9">
         <div class="container">
             <div class="reserve-section primary-bg rounded-5 w-100 px-5 py-6 px-2k-8 py-2k-9">
                 <div class="row align-items-center justify-content-between">
@@ -88,7 +88,7 @@
                             <img class="w-100" src="<?= get_template_directory_uri() ?>/assets/images/reserve-video-image.png?v=1" alt="">
                             <div class="position-absolute reserve-play-container">
                                 <a data-fancybox href="<?= get_template_directory_uri() ?>/assets/videos/our-story.mp4" class="d-flex align-items-center hover-effect">
-                                    <svg width="130" height="130" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg width="80" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="30" cy="30" r="30" fill="white" />
                                         <path d="M39.0825 31.8953C40.3224 30.9359 40.3224 29.0642 39.0825 28.1048C35.3357 25.2055 31.1517 22.9204 26.6872 21.3348L25.8717 21.0451C24.3113 20.4909 22.6632 21.5466 22.4519 23.1573C21.8617 27.6575 21.8617 32.3425 22.4519 36.8428C22.6632 38.4535 24.3113 39.5092 25.8716 38.955L26.6872 38.6653C31.1517 37.0798 35.3357 34.7945 39.0825 31.8953Z" fill="black" />
                                     </svg>
@@ -102,9 +102,9 @@
         </div>
     </section>
 
-    <section id="section-3" class="section-3 mt-9">
+    <section id="section-3" class="section-3 mt-7 mt-lg-9">
         <div class="container">
-            <div class="row justify-content-between vh-60">
+            <div class="row justify-content-between vh-60-auto">
                 <div class="col-md-3 col-fhd-3 d-flex flex-column justify-content-between">
                     <div class="text-center text-lg-start">
                         <h2 class="primary-color fs-3">Discover our indulging selection</h2>
@@ -238,7 +238,7 @@
     </section>
 
 
-    <section id="section-4" class="section-4 mt-9 d-flex align-items-center justify-content-center">
+    <section id="section-4" class="section-4 mt-7 mt-lg-9 d-flex align-items-center justify-content-center">
         <div class="position-absolute w-100 pill top-0 d-none d-md-block">
             <div class="">
                 <svg class="w-100 arches h-100" viewBox="0 0 811 679" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -287,7 +287,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="pt-10">
+                    <div class="pt-5 pt-lg-10">
                         <h3 class="fs-2 primary-color">Locate us</h3>
                         <div class="text-white mt-4 mb-4">
                             <p>Choose from our famous cheesecake, chocolate chip cookie, and our delicious, sugar-free, vegan chocolate custard dessert. Each contains ingredients that are pure, unprocessed, organic, and gluten-free.</p>
@@ -301,13 +301,13 @@
         </div>
     </section>
 
-    <section id="section-5" class="section-5 mt-9 d-flex align-items-center">
+    <section id="section-5" class="section-5 mt-7 mt-lg-9 d-flex align-items-center">
         <div class="container">
-            <div class="review-item py-5">
+            <div class="review-item">
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="reviewer d-flex align-items-center">
-                            <img width="150" class="rounded-circle me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.webp" alt="Reviewer picture">
+                            <img width="100" class="rounded-circle me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer1.webp" alt="Reviewer picture">
                             <div>
                                 <h6 class="white-color fs-7">James Bond</h6>
                                 <h6 class="primary-color">Founder & Chairman</h6>
@@ -356,7 +356,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="reviewer d-flex align-items-center">
-                            <img width="150" class="rounded-circle me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer2.webp" alt="Reviewer picture">
+                            <img width="100" class="rounded-circle me-2 mb-2 mb-lg-0" src="<?= get_template_directory_uri() ?>/assets/images/reviewer2.webp" alt="Reviewer picture">
                             <div>
                                 <h6 class="white-color fs-7">Leonardo DiCaprio</h6>
                                 <h6 class="primary-color">Founder & Chairman</h6>

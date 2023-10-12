@@ -25,9 +25,9 @@ $items = $query->posts;
 ?>
 
 <main id="menu-page" class="menu-page">
-    <section id="section-1" class="section-1 mt-7">
+    <section id="section-1" class="section-1 mt-6">
         <div class="container">
-            <div class="row gx-5">
+            <div class="row gx-0 gx-lg-5">
                 <div class="col-lg-3">
                     <div class="menu-item-categories">
                         <ul id="menu-items-container" class="d-flex d-lg-block overflow-auto pb-2 mb-2 pb-lg-0 mb-lg-0">

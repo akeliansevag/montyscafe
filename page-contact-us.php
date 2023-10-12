@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main id="contact-us" class="contact-us">
-    <section id="section-1" class="section-1 mt-7">
+    <section id="section-1" class="section-1 mt-6">
         <div class="container">
             <div class="row g-0 white-color my-3 mt-lg-4 mb-lg-6">
                 <div class="col-12 col-lg-6 px-0 pe-lg-6">

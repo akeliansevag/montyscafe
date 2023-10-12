@@ -2,7 +2,7 @@
 
 <main id="private-events" class="private-events">
     
-    <section id="section-1" class="section-1 mt-7">
+    <section id="section-1" class="section-1 mt-6">
 
         <div class="container">
 
@@ -40,7 +40,7 @@
                         <div class="d-flex justify-content-between">
                             <div class="w-100">
                                 <label for="date" class="d-block fs-9">Event date</label>
-                                <input type="date" name="date" id="date" class="mt-2 w-100 p-2">
+                                <input type="date" name="date" id="date" class="mt-2 w-100 p-2" placeholder="dd-mm-yyyy">
                             </div>
                         </div>
 

@@ -53,39 +53,44 @@ main {
       }
 
       &-5 {
-          .ttext{
-            font-size:3.5vw;
+        .ttext {
+          font-size: 3.5vw;
+
+          @media screen and (max-width: 576px) {
+            font-size: 7.5vw;
           }
-           .text-element-container{
-            display: inline-block;
-          }
-          .text-element {
-            width: 0%;
-            overflow: hidden;
-            -webkit-transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
-            transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
-            will-change: width, height;
-            white-space: nowrap;
-            background-image: -webkit-gradient(
-              linear,
-              left top,
-              left bottom,
-              from(#ffe592),
-              to(#f3dc97)
-            );
-            background-image: linear-gradient(180deg, #ffe592, #f3dc97);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            position: absolute;
-            left: 0;
-            top: 0;
-          }
-          span{
-            opacity: 0.24;
-          }
-        
-         
+        }
+
+        .text-element-container {
+          display: inline-block;
+        }
+
+        .text-element {
+          width: 0%;
+          overflow: hidden;
+          -webkit-transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+          transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+          will-change: width, height;
+          white-space: nowrap;
+          background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(#ffe592),
+            to(#f3dc97)
+          );
+          background-image: linear-gradient(180deg, #ffe592, #f3dc97);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+        span {
+          opacity: 0.24;
+        }
+
         .color-animated {
           span {
             opacity: 0.3;
@@ -99,8 +104,7 @@ main {
   &.menu-page {
     .menu-item-categories {
       a {
-        &.active,
-        &:hover {
+        &.active {
           background-color: $mc-secondary-color;
         }
       }
