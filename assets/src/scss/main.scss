@@ -2,7 +2,7 @@ main {
   &.homepage {
     .section {
       &-1 {
-        height: calc(100dvh - var(--mc-header-height) - 1rem);
+        height: calc(100dvh - var(--mc-header-height) - 2rem);
         transition: transform 0.25s ease-in-out, height 0.25s ease-in-out;
 
         .scroll-hint-wrapper {
