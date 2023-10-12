@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-lg-6">
                     <h2 class="fs-6 primary-color fw-light mb-3">Our story</h2>
-                    <p class="white-color fs-20 mb-3">At Monty’s Café, we believe that a memorable dining experience is about more than just great food. It's about creating a warm and inviting atmosphere where every guest feels like family. Established in 2023, our restaurant has been serving delicious meals and creating lasting memories in the heart of Beirut.</p>
+                    <p class="white-color mb-3">At Monty’s Café, we believe that a memorable dining experience is about more than just great food. It's about creating a warm and inviting atmosphere where every guest feels like family. Established in 2023, our restaurant has been serving delicious meals and creating lasting memories in the heart of Beirut.</p>
                 </div>
 
             </div>
@@ -66,7 +66,7 @@
             <div class="text-center">
                 <img class="w-100" src="<?= get_template_directory_uri() ?>/assets/images/chef2.png" alt="">
                 <h2 class="primary-color mt-5  fs-6 fw-light">Meet the Chef - Chadi Nassif</h2>
-                <p class="white-color fs-20 mt-4 px-0 px-lg-9">Behind every mouthwatering dish is a team of passionate individuals dedicated to making your dining experience exceptional. From our talented chefs who bring creativity and expertise to every recipe, to our friendly servers who ensure your visit is nothing short of delightful, each member of our team plays a crucial role in your dining pleasure.</p>
+                <p class="white-color mt-4 px-0 px-lg-9">Behind every mouthwatering dish is a team of passionate individuals dedicated to making your dining experience exceptional. From our talented chefs who bring creativity and expertise to every recipe, to our friendly servers who ensure your visit is nothing short of delightful, each member of our team plays a crucial role in your dining pleasure.</p>
 
                 <div class="d-flex align-items-center justify-content-center social-icons mt-5">
                     <a href="#" class="mx-2 rounded-pill primary-bg d-flex align-items-center justify-content-center">
