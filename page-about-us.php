@@ -50,7 +50,7 @@
             </div>
             <div class="row align-items-center mt-6 mt-lg-9">
                 <div class="col-lg-6">
-                    <h2 class="primary-color mb-3 fs-6 fw-light">Our philosophy</h2>
+                    <h2 class="primary-color  mb-3 fs-6 fw-light">Our philosophy</h2>
                     <p class="white-color">Our culinary philosophy is simple: fresh, local, and made with love. We source the finest ingredients from local farmers and suppliers to ensure that every dish is bursting with flavor and crafted with care. From our kitchen to your plate, we strive to deliver an exceptional dining experience.</p>
                 </div>
                 <div class="col-lg-6 mt-3 mt-lg-0 d-flex align-items-center justify-content-center">
