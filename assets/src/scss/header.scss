@@ -53,7 +53,7 @@ header {
     .nav {
         display: block;
         position: fixed;
-        top: var(--mc-header-height);
+        top: calc(var(--mc-header-height) + 2rem);
         left: -100%;
         width: 100%;
         height: calc(100vh - var(--mc-header-height) - 2rem); //2rem is my-3 on section-1
