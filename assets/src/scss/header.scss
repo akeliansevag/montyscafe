@@ -1,9 +1,9 @@
-header{
+header {
     height: var(--mc-header-height);
     min-height: var(--mc-header-height);
 }
 
-.mobile-nav--list{
+.mobile-nav--list {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -11,7 +11,7 @@ header{
     justify-content: space-between;
     padding-top: 0;
 
-    .menu-btn{
+    .menu-btn {
         display: block;
         transition: all 0.25s ease-in-out;
         z-index: 4;
@@ -19,14 +19,16 @@ header{
         padding: 0.4rem 0;
         cursor: pointer;
 
-        &.toggle{
-            .line{
+        &.toggle {
+            .line {
                 &:nth-child(1) {
                     transform: rotate(-45deg) translate(-5px, 6px);
                 }
+
                 &:nth-child(2) {
                     width: 0;
                 }
+
                 &:nth-child(3) {
                     transform: rotate(45deg) translate(-5px, -6px);
                 }
@@ -45,7 +47,7 @@ header{
                 margin: 5px 0;
             }
         }
-        
+
     }
 
     .nav {
@@ -54,7 +56,7 @@ header{
         top: var(--mc-header-height);
         left: -100%;
         width: 100%;
-        height: calc(100vh - var(--mc-header-height));
+        height: calc(100vh - var(--mc-header-height) - 2rem); //2rem is my-3 on section-1
         padding: 1rem 1.5rem;
         z-index: 3;
         transition: all 0.25s ease-in-out;
@@ -68,9 +70,9 @@ header{
         a {
             transition: all 0.25s ease-in-out;
         }
-        
-        .item{
-            &-link.active{
+
+        .item {
+            &-link.active {
                 color: $mc-white-color;
             }
 
@@ -79,7 +81,7 @@ header{
                 -webkit-transform: rotate(180deg);
                 -ms-transform: rotate(180deg);
             }
-            
+
             &-wrapper {
                 display: none;
             }
