@@ -1,4 +1,4 @@
-<header id="header" class="d-flex align-items-center py-2">
+<header id="header" class="d-flex align-items-center my-3 my-lg-0">
     <div class="container">
         <div class="desktop d-none d-lg-block">
             <div class="d-flex justify-content-between align-items-center">
@@ -31,8 +31,8 @@
 
         <div class="mobile d-block d-lg-none">
             <div class="d-flex justify-content-between">
-                <a href="<?= home_url() ?>">
-                    <img class="h-100" src="<?= get_template_directory_uri() ?>/assets/images/logo-short.svg" alt="Monty's Cafe logo" width="100" height="88">
+                <a class="d-inline-flex align-items-center" href="<?= home_url() ?>">
+                    <img clsas="h-100" src="<?= get_template_directory_uri() ?>/assets/images/logo-short.svg" alt="Monty's Cafe logo">
                 </a>
                 <div class="mobile-nav--list">
                     <a href="tel:+96103000000">
