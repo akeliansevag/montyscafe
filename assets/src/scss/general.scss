@@ -1,52 +1,52 @@
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 :root {
-  --mc-header-height: 90px;
+    --mc-header-height: 90px;
 
-  @media (min-width: 576px) {
-    --mc-header-height: 115px;
-  }
+    @media (min-width: 576px) {
+        --mc-header-height: 115px;
+    }
 }
 
 body,
 html {
-  margin: 0;
-  padding: 0;
-  background-color: $mc-tertiary-color;
+    margin: 0;
+    padding: 0;
+    background-color: $mc-tertiary-color;
 }
 img {
-  max-width: 100%;
-  height: auto; //to check later
+    max-width: 100%;
+    height: auto; //to check later
 }
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  position: relative;
-  font: normal normal 400 1rem "Excon-Regular", sans-serif;
-  z-index: -1;
+    position: relative;
+    font: normal normal 400 1rem "Excon-Regular", sans-serif;
+    z-index: -1;
 }
 
 main,
 div,
 section {
-  position: relative;
+    position: relative;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 a {
-  text-decoration: none;
-  transition: color 0.25s ease-in-out;
+    text-decoration: none;
+    transition: color 0.25s ease-in-out;
 }
 
 /*img:not(.movable-img,) {
@@ -61,8 +61,8 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
-  line-height: inherit;
+    margin: 0;
+    line-height: inherit;
 }
 
 select,
@@ -72,145 +72,145 @@ textarea .button-primary,
 .button-secondary,
 .prev-btn,
 .next-btn {
-  outline: none;
-  margin: 0;
-  padding: 0;
-  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out,
-    border 0.25s;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -khtml-user-select: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out,
+        border 0.25s;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
 }
 
 button.full {
-  width: 100%;
+    width: 100%;
 
-  @media (min-width: 576px) {
-    width: auto;
-  }
+    @media (min-width: 576px) {
+        width: auto;
+    }
 }
 
 .button-primary {
-  border: 1px solid $mc-primary-color;
+    border: 1px solid $mc-primary-color;
 
-  &:hover {
-    border: 1px solid $mc-white-color;
-  }
+    &:hover {
+        border: 1px solid $mc-white-color;
+    }
 }
 
 .button-secondary {
-  border: 1px solid $mc-secondary-color;
+    border: 1px solid $mc-secondary-color;
 
-  &:hover {
-    border: 1px solid $mc-secondary-darker-color;
-  }
+    &:hover {
+        border: 1px solid $mc-secondary-darker-color;
+    }
 }
 
 .button-tertiary {
-  border: 1px solid $mc-white-color;
+    border: 1px solid $mc-white-color;
 
-  &:hover {
-    border: 1px solid $mc-primary-color;
-  }
+    &:hover {
+        border: 1px solid $mc-primary-color;
+    }
 }
 
 .hover-effect {
-  transition: opacity 0.25s linear;
-  &:hover {
-    opacity: 0.9;
-  }
+    transition: opacity 0.25s linear;
+    &:hover {
+        opacity: 0.9;
+    }
 }
 
 .prev-btn,
 .next-btn {
-  background-color: $mc-secondary-color;
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 6px;
+    background-color: $mc-secondary-color;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 6px;
 
-  &:hover {
-    background-color: $mc-secondary-darker-color;
-  }
+    &:hover {
+        background-color: $mc-secondary-darker-color;
+    }
 }
 
 .social-icons {
-  a {
-    width: 56px;
-    height: 56px;
-    transition: background-color 0.25s ease-in;
+    a {
+        width: 56px;
+        height: 56px;
+        transition: background-color 0.25s ease-in;
 
-    &:hover {
-      background-color: $mc-white-color;
+        &:hover {
+            background-color: $mc-white-color;
+        }
     }
-  }
 }
 
 img.movable-img {
-  transform: translate(0, 0); /* Initial position */
-  transition: transform 0.25s ease; /* Transition effect */
+    transform: translate(0, 0); /* Initial position */
+    transition: transform 0.25s ease; /* Transition effect */
 }
 
 .pill {
-  // max-width: 900px;
-  @media screen and (min-width: 576px) {
-    max-width: 50%;
-  }
-
-  img {
-    background-color: $mc-tertiary-color;
-
-    &:not(#pill-3) {
-      width: 10%;
-
-      @media screen and (max-width: 576px) {
-        width: 15%;
-      }
+    // max-width: 900px;
+    @media screen and (min-width: 576px) {
+        max-width: 50%;
     }
 
-    &.burger {
-      top: 12%;
-      left: 8%;
+    img {
+        background-color: $mc-tertiary-color;
+
+        &:not(#pill-3) {
+            width: 10%;
+
+            @media screen and (max-width: 576px) {
+                width: 15%;
+            }
+        }
+
+        &.burger {
+            top: 12%;
+            left: 8%;
+        }
+        &.pizza {
+            top: -5%;
+            left: 48%;
+        }
+        &.hotdog {
+            top: 12%;
+            right: 12%;
+        }
+        &.juice {
+            top: 66%;
+            left: 1%;
+        }
+        &.pasta {
+            top: 56%;
+            right: 1%;
+        }
     }
-    &.pizza {
-      top: -5%;
-      left: 48%;
+    #pill-chef {
+        width: 10%;
+        top: 12%;
+        right: 0%;
+        background-color: $mc-tertiary-color;
+        white-space: nowrap;
     }
-    &.hotdog {
-      top: 12%;
-      right: 12%;
-    }
-    &.juice {
-      top: 66%;
-      left: 0;
-    }
-    &.pasta {
-      top: 56%;
-      right: 0;
-    }
-  }
-  #pill-chef {
-    width: 10%;
-    top: 12%;
-    right: 0%;
-    background-color: $mc-tertiary-color;
-    white-space: nowrap;
-  }
 }
 
 .cursor-pointer {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .vh-60-auto {
-  height: auto;
+    height: auto;
 
-  @media screen and (min-width: 768px) {
-    height: 60vh;
-  }
+    @media screen and (min-width: 768px) {
+        height: 60vh;
+    }
 }

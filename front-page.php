@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 <main id="homepage" class="homepage">
-    <section id="section-1" class="section-1 pt-7 movable-container">
+    <section id="section-1" class="section-1 pt-md-7 pt-2 movable-container">
         <div class="d-flex justify-content-center align-items-center h-100 text-center">
             <div class="position-absolute w-100 pill">
-                <div class="">
+                <div>
                     <img id="pill-1" data-value="-5" class="p-2 movable-img position-absolute burger" src="<?= get_template_directory_uri() ?>/assets/images/burger.svg" alt="Burger">
                     <img id="pill-2" data-value="3" class="p-2 movable-img position-absolute pizza" src="<?= get_template_directory_uri() ?>/assets/images/pizza.svg" alt="Pizza">
                     <div id="pill-chef" data-value="-1" class="movable-img position-absolute d-none d-lg-flex flex-column flex-lg-row justify-content-center align-items-center">
@@ -54,11 +54,11 @@
 
             </div>
             <div class="container">
-                <h1 class="fs-1 primary-color animation fadeInUpDown opacity-0 test2">Where stories are told through food</h1>
+                <h1 class="fs-1 lh-sm primary-color animation fadeInUpDown opacity-0 test2">Where stories are told through food</h1>
 
-                <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center mt-3 mt-sm-6">
-                    <a href="<?= home_url() ?>/menu/a-great-start/" class="button-secondary py-3 px-5 mx-2 rounded-pill full">View all Menu</a>
-                    <a href="<?= home_url() ?>/private-events" class="button-tertiary py-3 px-5 mx-2 mt-2 mt-sm-0 rounded-pill full">Reserve Event</a>
+                <div class="d-flex justify-content-center align-items-center mt-3 mt-sm-6">
+                    <a href="<?= home_url() ?>/menu/a-great-start/" class="button-secondary text-nowrap py-3 px-3 px-sm-5 mx-2 rounded-pill full">View all Menu</a>
+                    <a href="<?= home_url() ?>/private-events" class="button-tertiary text-nowrap py-3 px-3 px-sm-5 mx-2 rounded-pill full">Reserve Event</a>
                 </div>
             </div>
         </div>
