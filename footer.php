@@ -1,4 +1,4 @@
-        <footer class="vh-50 movable-container mt-9 mb-5 postion-relative">
+        <footer class="vh-50 movable-container mt-9 mb-5 postion-relative" style="overflow-x:hidden;">
             <section class="h-100 d-flex align-items-center justify-content-center">
                 <div class="w-100 pill h-100 d-flex align-items-center justify-content-center">
                     <div class="position-absolute top-0 w-100">
@@ -95,7 +95,8 @@
                 </div>
             </div>
         </footer>
-        
+
         <?php wp_footer(); ?>
-    </body>
-</html>
+        </body>
+
+        </html>
