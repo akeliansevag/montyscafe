@@ -47,7 +47,7 @@
                         <div class="d-flex justify-content-center align-items-center w-100 h-100 z-1">
                             <div class="container">
                                 <h1 class="fs-1 text-center primary-color">Let's get in touch</h1>
-                                <div class="gap-3 text-center d-flex align-items-center justify-content-center social-icons pt-4">
+                                <div class="gap-3 text-center d-flex align-items-center justify-content-center pt-4">
                                     <a href="#" class="p-3 rounded-pill primary-bg d-flex align-items-center justify-content-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                             <path d="M11.2675 6.72455C8.50205 6.72455 6.21069 8.9764 6.21069 11.7813C6.21069 14.5863 8.46255 16.8381 11.2675 16.8381C14.0724 16.8381 16.3243 14.5468 16.3243 11.7813C16.3243 9.01591 14.0329 6.72455 11.2675 6.72455ZM11.2675 15.0208C9.48971 15.0208 8.02798 13.5591 8.02798 11.7813C8.02798 10.0036 9.48971 8.54183 11.2675 8.54183C13.0453 8.54183 14.507 10.0036 14.507 11.7813C14.507 13.5591 13.0453 15.0208 11.2675 15.0208Z" fill="black" />
