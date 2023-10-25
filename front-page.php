@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main id="homepage" class="homepage">
-    <section id="section-1" class="section-1 pt-md-7 pt-2 movable-container" style="overflow-x:hidden;">
+    <section id="section-1" class="section-1 pt-md-7 pt-2 movable-container">
         <div class="d-flex justify-content-center align-items-center h-100 text-center">
             <div class="position-absolute w-100 pill">
                 <div>
