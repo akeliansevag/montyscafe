@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main id="private-events" class="private-events">
-    
+
     <section id="section-1" class="section-1 mt-6">
 
         <div class="container">
@@ -40,7 +40,7 @@
                             <div class="d-flex justify-content-between">
                                 <div class="w-100">
                                     <label for="date" class="d-block fs-9">Event date</label>
-                                    <input type="date" name="date" id="date" class="mt-2 w-100 p-2" placeholder="dd-mm-yyyy">
+                                    <input type="date" name="date" id="date" class="mt-2 w-100 p-2" customPlaceholder="dd-mm-yyyy">
                                 </div>
                             </div>
 
@@ -50,10 +50,10 @@
                                     <input type="text" name="invitees" id="invitees" class="mt-2 w-100 p-2">
                                 </div>
                             </div>
-                            
+
                             <div class="d-flex justify-content-between">
-                                <div class="w-100 containerr" >
-                                    <input type="checkbox" name="acknowledgement" id="ack-label">       
+                                <div class="w-100 containerr">
+                                    <input type="checkbox" name="acknowledgement" id="ack-label">
                                     <label for="ack-label">You agree to our <a id="acknowledgement" href="">privacy policy</a>.</label>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                     <img src="<?= get_template_directory_uri() ?>/assets/images/private-events.png" alt="Private Events" width="608" height="766">
                 </div>
             </div>
-        
+
         </div>
 
     </section>

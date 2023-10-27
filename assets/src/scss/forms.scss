@@ -38,7 +38,7 @@ main {
             }
 
             &::before {
-                content: attr(placeholder);
+                content: attr(customPlaceholder);
             }
 
             &::-webkit-calendar-picker-indicator {
