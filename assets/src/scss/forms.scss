@@ -1,6 +1,8 @@
 main {
+
     &.contact-us,
     &.private-events {
+
         input[type="text"],
         input[type="email"],
         input[type="tel"],
@@ -16,7 +18,8 @@ main {
             }
 
             &:-webkit-autofill {
-                -webkit-box-shadow: 0 0 0 30px $mc-tertiary-color inset !important; /* Adjust the color and other styles */
+                -webkit-box-shadow: 0 0 0 30px $mc-tertiary-color inset !important;
+                /* Adjust the color and other styles */
                 color: white !important;
                 -webkit-text-fill-color: white !important;
             }
@@ -27,12 +30,19 @@ main {
             height: 110px;
         }
 
-        input[type="date"]::-webkit-calendar-picker-indicator {
-            filter: invert(1);
-        }
+        input[type="date"] {
+            &::before {
+                content: attr(placeholder);
+            }
 
-        input[type="date"]::-webkit-input-placeholder {
-            color: transparent !important;
+            &::-webkit-calendar-picker-indicator {
+                filter: invert(1);
+            }
+
+
+            &::-webkit-input-placeholder {
+                color: transparent !important;
+            }
         }
 
         a#acknowledgement {
@@ -44,7 +54,7 @@ main {
             display: none;
         }
 
-        input[type="checkbox"] + label {
+        input[type="checkbox"]+label {
             padding-left: 32px;
             cursor: pointer;
 
@@ -62,7 +72,7 @@ main {
             }
         }
 
-        input[type="checkbox"]:checked + label:before {
+        input[type="checkbox"]:checked+label:before {
             content: "\2714";
             font-size: 12px;
             color: #fff;
