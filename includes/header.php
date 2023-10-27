@@ -17,7 +17,7 @@
                             <a href="<?= home_url() ?>/about-us">About us</a>
                         </li>
                         <li class="ps-4">
-                            <a href="<?= home_url() ?>/private-events">Private Events</a>
+                            <a href="<?= home_url() ?>/private-events">Private events</a>
                         </li>
                         <li class="ps-4">
                             <a href="tel:+96103000000">
@@ -51,7 +51,7 @@
                                 <li class="my-3"><a href="<?= home_url() ?>/menu/a-great-start/" class="item-link active">Menu</a></li>
                                 <li class="my-3"><a href="<?= home_url() ?>/about-us/" class="item-link">About us</a></li>
                                 <li class="my-3"><a href="<?= home_url() ?>/contact-us/" class="item-link">Contact us</a></li>
-                                <li class="my-3"><a href="<?= home_url() ?>/private-events/" class="item-link">Private Events</a></li>
+                                <li class="my-3"><a href="<?= home_url() ?>/private-events/" class="item-link">Private events</a></li>
                             </ul>
                         </div>
                     </div>

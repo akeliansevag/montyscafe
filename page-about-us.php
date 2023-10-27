@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <main id="about-us" class="about-us">
-    <section class="section-1 mt-9 d-flex align-items-center">
-        <img width="233px" class="position-absolute start-0" style="transform:rotate(180deg)" src="<?= get_template_directory_uri() ?>/assets/images/arc-right.svg" alt="">
+    <section class="section-1 mt-6 d-flex align-items-center">
+        <img width="233" class="position-absolute start-0" style="transform:rotate(180deg)" src="<?= get_template_directory_uri() ?>/assets/images/arc-right.svg" alt="">
         <div class="container">
             <div class="text-center">
                 <h1 class="fs-3 primary-color">Our culinary journey</h1>

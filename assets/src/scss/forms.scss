@@ -1,78 +1,85 @@
 main {
-  &.contact-us,
-  &.private-events {
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    input[type="date"],
-    textarea {
-      border-radius: 8px;
-      border: 1px solid #5d6b6c;
-      color: $mc-white-color;
-      background-color: transparent;
+    &.contact-us,
+    &.private-events {
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        textarea {
+            border-radius: 8px;
+            border: 1px solid #5d6b6c;
+            color: $mc-white-color;
+            background-color: transparent;
 
-      &:focus {
-        outline: none;
-      }
+            &:focus {
+                outline: none;
+            }
 
-      &:-webkit-autofill {
-        -webkit-box-shadow: 0 0 0 30px $mc-tertiary-color inset !important; /* Adjust the color and other styles */
-        color: white !important;
-        -webkit-text-fill-color: white !important;
-      }
+            &:-webkit-autofill {
+                -webkit-box-shadow: 0 0 0 30px $mc-tertiary-color inset !important; /* Adjust the color and other styles */
+                color: white !important;
+                -webkit-text-fill-color: white !important;
+            }
+        }
+
+        textarea {
+            resize: none;
+            height: 110px;
+        }
+
+        input[type="date"] {
+            display: block;
+            -webkit-appearance: textfield;
+            -moz-appearance: textfield;
+            min-height: 1.2em;
+        }
+
+        input[type="date"]::-webkit-calendar-picker-indicator {
+            filter: invert(1);
+        }
+
+        input[type="date"]::-webkit-input-placeholder {
+            color: transparent !important;
+        }
+
+        a#acknowledgement {
+            color: #aeb5b5;
+            text-decoration: underline;
+        }
+
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        input[type="checkbox"] + label {
+            padding-left: 32px;
+            cursor: pointer;
+
+            &:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 20px;
+                height: 20px;
+                border: 1px solid #5d6b6c;
+                background-color: transparent;
+                border-radius: 6px;
+                margin-top: 2px;
+            }
+        }
+
+        input[type="checkbox"]:checked + label:before {
+            content: "\2714";
+            font-size: 12px;
+            color: #fff;
+            text-align: center;
+            margin-top: 1px;
+        }
+
+        img {
+            aspect-ratio: 8/10;
+            object-fit: cover;
+        }
     }
-
-    textarea {
-      resize: none;
-      height: 110px;
-    }
-
-    input[type="date"]::-webkit-calendar-picker-indicator {
-      filter: invert(1);
-    }
-
-    input[type="date"]::-webkit-input-placeholder {
-      color: transparent !important;
-    }
-
-    a#acknowledgement {
-      color: #aeb5b5;
-      text-decoration: underline;
-    }
-
-    input[type="checkbox"] {
-      display: none;
-    }
-
-    input[type="checkbox"] + label {
-      padding-left: 32px;
-      cursor: pointer;
-
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 20px;
-        height: 20px;
-        border: 1px solid #5d6b6c;
-        background-color: transparent;
-        border-radius: 6px;
-        margin-top: 2px;
-      }
-    }
-
-    input[type="checkbox"]:checked + label:before {
-      content: "\2714";
-      font-size: 12px;
-      color: #fff;
-      text-align: center;
-      margin-top: 1px;
-    }
-
-    img {
-      aspect-ratio: 8/10;
-      object-fit: cover;
-    }
-  }
 }

@@ -6,7 +6,7 @@
 
         <div class="container">
 
-            <div class="row g-0 align-items-center white-color my-3 mt-lg-4 mb-lg-6">
+            <div class="row g-0 align-items-center white-color">
                 <div class="col-12 col-lg-6 px-0 pe-lg-6">
                     <h1 class="fs-3 primary-color">Book your private event in seconds</h1>
                     <div class="d-flex flex-column gap-4 mt-5">
