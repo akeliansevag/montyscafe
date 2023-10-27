@@ -38,9 +38,9 @@
                             </div>
 
                             <div class="d-flex justify-content-between">
-                                <div class="w-100">
+                                <div class="w-100 black-color">
                                     <label for="date" class="d-block fs-9">Event date</label>
-                                    <input value="dd-mm-yyyy" type="date" name="date" id="date" class="mt-2 w-100 p-2">
+                                    <input type="text" name="date" id="date" class="mt-2 w-100 p-2">
                                 </div>
                             </div>
 

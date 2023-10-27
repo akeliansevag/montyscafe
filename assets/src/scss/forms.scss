@@ -32,18 +32,15 @@ main {
 
         input[type="date"] {
 
-            &::before {
-                content: attr(value);
-            }
 
-            &::-webkit-calendar-picker-indicator {
-                filter: invert(1);
-            }
+            // &::-webkit-calendar-picker-indicator {
+            //     filter: invert(1);
+            // }
 
 
-            &::-webkit-input-placeholder {
-                color: transparent !important;
-            }
+            // &::-webkit-input-placeholder {
+            //     color: transparent !important;
+            // }
         }
 
         a#acknowledgement {
