@@ -3,7 +3,7 @@ import Swiper from "swiper";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Fancybox } from "@fancyapps/ui";
-alert("!!!");
+
 const throttled = (delay, fn) => {
     let lastCall = 0;
     return function (...args) {
