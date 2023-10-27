@@ -2,10 +2,9 @@ import { getUrlPath } from "./helpers/functions";
 require("./helpers/common");
 
 let page = getUrlPath();
-console.log(page);
 if (page.length <= 2) page.push("");
 
-switch (page[2]) {
+switch (page[1]) {
     case "":
         require("./pages/homepage");
         break;
