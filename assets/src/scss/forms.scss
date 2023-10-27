@@ -31,15 +31,10 @@ main {
         }
 
         input[type="date"] {
-            //min-width: 96%;
 
-            // &::placeholder {
-            //     display: none;
-            // }
-
-            // &::before {
-            //     content: attr(customPlaceholder);
-            // }
+            &::before {
+                content: attr(value);
+            }
 
             &::-webkit-calendar-picker-indicator {
                 filter: invert(1);
