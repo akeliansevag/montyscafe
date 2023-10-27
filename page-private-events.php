@@ -9,8 +9,8 @@
             <div class="row g-0 align-items-center white-color">
                 <div class="col-12 col-lg-6 px-0 pe-lg-6">
                     <h1 class="fs-3 primary-color">Book your private event in seconds</h1>
-                    <div class="d-flex flex-column gap-4 mt-5">
-                        <form action="" method="POST">
+                    <form action="" method="POST">
+                        <div class="d-flex flex-column gap-4 mt-5">
                             <div class="d-flex flex-column flex-lg-row justify-content-between gap-4">
                                 <div class="w-100">
                                     <label for="first-name" class="d-block fs-9">First Name</label>
@@ -63,8 +63,8 @@
                                     <button class="button-secondary py-3 px-5 w-100 rounded-pill">Request Reservation</button>
                                 </div>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-12 col-lg-6 d-none d-lg-flex justify-content-end">
                     <img src="<?= get_template_directory_uri() ?>/assets/images/private-events.png" alt="Private Events" width="608" height="766">
