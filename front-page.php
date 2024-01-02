@@ -54,7 +54,7 @@
 
             </div>
             <div class="container">
-                <h1 class="fs-1 lh-sm primary-color animation fadeInUpDown opacity-0 test2">Where stories are told through foodss</h1>
+                <h1 class="fs-1 lh-sm primary-color animation fadeInUpDown opacity-0 test2">Where stories are told through food</h1>
 
                 <div class="d-flex justify-content-center align-items-center mt-3 mt-sm-6">
                     <a href="<?= home_url() ?>/menu/a-great-start/" class="button-secondary text-nowrap py-3 px-3 px-sm-5 mx-2 rounded-pill full">View all Menu</a>
